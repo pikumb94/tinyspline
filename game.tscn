@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cvxh7fuiki50e"]
+
+[ext_resource type="PackedScene" uid="uid://dep3ac6vrc8b7" path="res://Level/level.tscn" id="1_80nbo"]
+[ext_resource type="PackedScene" uid="uid://c3ha85qhx222n" path="res://Player/player.tscn" id="1_e2o6t"]
+[ext_resource type="PackedScene" uid="uid://bescp2mnljfad" path="res://Vehicles/car_sedan.tscn" id="3_feb5d"]
+
+[node name="Game" type="Node3D" unique_id=2055739088]
+
+[node name="Player" parent="." unique_id=388426921 instance=ExtResource("1_e2o6t")]
+
+[node name="Level" parent="." unique_id=1109354553 instance=ExtResource("1_80nbo")]
+
+[node name="CarSedan" parent="." unique_id=1081700406 instance=ExtResource("3_feb5d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.04809761, -1.1920929e-07, -0.056660414)

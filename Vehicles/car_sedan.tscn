@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://bescp2mnljfad"]
+
+[ext_resource type="ArrayMesh" uid="uid://cb1vrcwb6i52x" path="res://Vehicles/Meshes/sedan_body.res" id="1_yy1w6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_yy1w6"]
+size = Vector3(1.1, 1, 2.25)
+
+[node name="CarSedan" type="Node3D" unique_id=1081700406]
+
+[node name="VehicleBody3D" type="VehicleBody3D" parent="." unique_id=1099192507]
+center_of_mass_mode = 1
+
+[node name="MeshBody" type="MeshInstance3D" parent="VehicleBody3D" unique_id=141703334]
+mesh = ExtResource("1_yy1w6")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="VehicleBody3D" unique_id=1646993046]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.65, 0)
+shape = SubResource("BoxShape3D_yy1w6")
+
+[node name="WheelFront1" type="VehicleWheel3D" parent="VehicleBody3D" unique_id=1822034427]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6, 0.15, 0.685)
+use_as_steering = true
+wheel_radius = 0.265
+
+[node name="WheelFront2" type="VehicleWheel3D" parent="VehicleBody3D" unique_id=528778171]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6, 0.15, 0.685)
+use_as_steering = true
+wheel_radius = 0.265
+
+[node name="WheelBack1" type="VehicleWheel3D" parent="VehicleBody3D" unique_id=447513544]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6, 0.15, -0.63)
+use_as_traction = true
+wheel_radius = 0.265
+
+[node name="WheelBack2" type="VehicleWheel3D" parent="VehicleBody3D" unique_id=1491772104]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6, 0.15, -0.63)
+use_as_traction = true
+wheel_radius = 0.265
