@@ -11,4 +11,4 @@
 [node name="Level" parent="." unique_id=1109354553 instance=ExtResource("1_80nbo")]
 
 [node name="CarSedan" parent="." unique_id=1081700406 instance=ExtResource("3_feb5d")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.04809761, -1.1920929e-07, -0.056660414)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.04809761, 0.5999999, -0.056660414)
