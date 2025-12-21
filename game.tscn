@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://dep3ac6vrc8b7" path="res://Level/level.tscn" id="1_80nbo"]
 [ext_resource type="PackedScene" uid="uid://c3ha85qhx222n" path="res://Player/player.tscn" id="1_e2o6t"]
 [ext_resource type="PackedScene" uid="uid://bescp2mnljfad" path="res://Vehicles/car_sedan.tscn" id="3_feb5d"]
+[ext_resource type="PackedScene" uid="uid://bv5yidq3pdqm0" path="res://Trajectory/trajectory.tscn" id="4_fc0e3"]
 
 [node name="Game" type="Node3D" unique_id=2055739088]
 
@@ -11,4 +12,7 @@
 [node name="Level" parent="." unique_id=1109354553 instance=ExtResource("1_80nbo")]
 
 [node name="CarSedan" parent="." unique_id=1081700406 instance=ExtResource("3_feb5d")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.04809761, 0.5999999, -0.056660414)
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.04809761, 0.8999999, -0.056660414)
+
+[node name="Trajectory" parent="." unique_id=937586305 instance=ExtResource("4_fc0e3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)

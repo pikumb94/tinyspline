@@ -17,7 +17,7 @@ size = Vector3(1.1, 1, 2.25)
 physics_material_override = SubResource("PhysicsMaterial_s48vd")
 center_of_mass_mode = 1
 script = ExtResource("1_s48vd")
-engine_force_value = 1000.0
+engine_force_value = 100.0
 
 [node name="MeshBody" type="MeshInstance3D" parent="VehicleBody3D" unique_id=141703334]
 visible = false
@@ -30,9 +30,9 @@ shape = SubResource("BoxShape3D_yy1w6")
 [node name="WheelFront1" type="VehicleWheel3D" parent="VehicleBody3D" unique_id=1822034427]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6, 0.15, 0.685)
 use_as_steering = true
+wheel_roll_influence = 2.0
 wheel_radius = 0.265
-suspension_travel = 0.5
-suspension_stiffness = 75.0
+suspension_stiffness = 200.0
 
 [node name="MeshWheel" type="MeshInstance3D" parent="VehicleBody3D/WheelFront1" unique_id=1461667922]
 transform = Transform3D(-0.8, 0, 0, 0, 0.88, -7.693205e-08, 0, 7.693205e-08, 0.88, 0, 0, 0)
@@ -42,9 +42,9 @@ surface_material_override/0 = ExtResource("4_jlevs")
 [node name="WheelFront2" type="VehicleWheel3D" parent="VehicleBody3D" unique_id=528778171]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6, 0.15, 0.685)
 use_as_steering = true
+wheel_roll_influence = 2.0
 wheel_radius = 0.265
-suspension_travel = 0.5
-suspension_stiffness = 75.0
+suspension_stiffness = 200.0
 
 [node name="MeshWheel" type="MeshInstance3D" parent="VehicleBody3D/WheelFront2" unique_id=1178959487]
 transform = Transform3D(0.8, 0, 0, 0, 0.88, -7.693205e-08, 0, 7.693205e-08, 0.88, 0, 0, 0)
@@ -54,9 +54,9 @@ surface_material_override/0 = ExtResource("4_jlevs")
 [node name="WheelBack1" type="VehicleWheel3D" parent="VehicleBody3D" unique_id=447513544]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6, 0.15, -0.63)
 use_as_traction = true
+wheel_roll_influence = 2.0
 wheel_radius = 0.265
-suspension_travel = 0.5
-suspension_stiffness = 75.0
+suspension_stiffness = 200.0
 
 [node name="MeshWheel" type="MeshInstance3D" parent="VehicleBody3D/WheelBack1" unique_id=1223600360]
 transform = Transform3D(-0.8, 0, 0, 0, -0.88, 7.693205e-08, 0, -7.693205e-08, -0.88, 0, 0, 0)
@@ -66,9 +66,9 @@ surface_material_override/0 = ExtResource("4_jlevs")
 [node name="WheelBack2" type="VehicleWheel3D" parent="VehicleBody3D" unique_id=1491772104]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6, 0.15, -0.63)
 use_as_traction = true
+wheel_roll_influence = 2.0
 wheel_radius = 0.265
-suspension_travel = 0.5
-suspension_stiffness = 75.0
+suspension_stiffness = 200.0
 
 [node name="MeshWheel" type="MeshInstance3D" parent="VehicleBody3D/WheelBack2" unique_id=778534788]
 transform = Transform3D(0.8, 0, 0, 0, 0.88, -7.693205e-08, 0, 7.693205e-08, 0.88, 0, 0, 0)
