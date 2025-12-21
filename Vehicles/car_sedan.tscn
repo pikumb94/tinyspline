@@ -11,6 +11,8 @@ friction = 0.5
 [sub_resource type="BoxShape3D" id="BoxShape3D_yy1w6"]
 size = Vector3(1.1, 1, 2.25)
 
+[sub_resource type="SphereShape3D" id="SphereShape3D_gnnie"]
+
 [node name="CarSedan" type="Node3D" unique_id=1081700406]
 
 [node name="VehicleBody3D" type="VehicleBody3D" parent="." unique_id=1099192507]
@@ -74,3 +76,10 @@ suspension_stiffness = 200.0
 transform = Transform3D(0.8, 0, 0, 0, 0.88, -7.693205e-08, 0, 7.693205e-08, 0.88, 0, 0, 0)
 mesh = ExtResource("3_gnnie")
 surface_material_override/0 = ExtResource("4_jlevs")
+
+[node name="DesiredPosition" type="ShapeCast3D" parent="VehicleBody3D" unique_id=1861278763]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6499575, 5.0471544)
+shape = SubResource("SphereShape3D_gnnie")
+target_position = Vector3(0, 0, 0)
+collision_mask = 2
+debug_shape_custom_color = Color(0, 1, 0, 1)
