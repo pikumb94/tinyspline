@@ -149,6 +149,10 @@ cycle_camera={
 ]
 }
 
+[layer_names]
+
+3d_physics/layer_2="TrajectoryLayer"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

@@ -1,9 +1,35 @@
 extends Node3D
 
-@export var controlled_vehicle: VehicleBody3D
+@export var controlled_vehicle: Vehicle
 @export var path_to_follow: Path3D
 
+@export var FUTURE_OFFSET: float = 10.0
+@export var DISTANCE_FROM_PATH: float = .5
+
+func _ready():
+	if path_to_follow and controlled_vehicle:
+		controlled_vehicle.is_active = true
+
+#controllers takes a vehicle that simply follows a path and decides the target frame by frame
 func _process(delta: float):
-	if path_to_follow and  controlled_vehicle:
-		var closest_pos = path_to_follow.curve.get_closest_point(controlled_vehicle.global_position)
-		$Area3D.global_position = closest_pos
+	if path_to_follow and controlled_vehicle:
+		#debug_draws
+		$Area3D/Future.global_position = get_future_positon()
+		$Area3D/Target.global_position = controlled_vehicle.target_position
+		$DesiredVelocityRaycast.global_position = controlled_vehicle.get_vehicle_global_position()
+		$DesiredVelocityRaycast.target_position = controlled_vehicle.desired_velocity
+		$SteerForceRaycast.global_position = controlled_vehicle.get_vehicle_global_position()
+		$SteerForceRaycast.target_position = controlled_vehicle.steer_force
+
+		var current_future_position = get_future_positon()
+		var distance_from_path = current_future_position - path_to_follow.curve.get_closest_point(current_future_position)
+		
+		controlled_vehicle.target_position = path_to_follow.curve.get_closest_point(current_future_position)
+
+		#if distance_from_path.length_squared() > DISTANCE_FROM_PATH * DISTANCE_FROM_PATH:
+		#	controlled_vehicle.is_active= true
+		#else:
+		#	controlled_vehicle.is_active = false
+
+func get_future_positon() -> Vector3:
+	return controlled_vehicle.get_vehicle_global_position() + controlled_vehicle.get_current_velocity().limit_length(FUTURE_OFFSET)
