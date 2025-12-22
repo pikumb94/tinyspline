@@ -13,7 +13,7 @@
 [node name="Level" parent="." unique_id=1109354553 instance=ExtResource("1_80nbo")]
 
 [node name="CarSedan" parent="." unique_id=1081700406 instance=ExtResource("3_feb5d")]
-transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 4.848098, 0.8999999, 4.34334)
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -4.3519025, 0.8999999, 7.5433397)
 
 [node name="Controller" parent="." unique_id=364330167 node_paths=PackedStringArray("controlled_vehicle", "path_to_follow") instance=ExtResource("4_7jktm")]
 controlled_vehicle = NodePath("../CarSedan")

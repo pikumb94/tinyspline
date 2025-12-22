@@ -2,8 +2,8 @@
 class_name Vehicle
 extends Node3D
 
-@export var MAX_SPEED: float = 8
-@export var MAX_FORCE: float = .2
+@export var MAX_SPEED: float = 1000
+@export var MAX_FORCE: float = 1000
 @export var ARRIVE_RADIUS: float = 2
 
 #target position is updated and changed by the controller who is the brain/soul of the vehicle...
