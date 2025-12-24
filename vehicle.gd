@@ -2,7 +2,9 @@
 class_name Vehicle
 extends Node3D
 
+#limits the speed to allow a smooth arrival
 @export var MAX_SPEED: float = 1000
+#limits the force to allow huge forces behaviors: the vehicle can reach a maxforce at the end
 @export var MAX_FORCE: float = 1000
 @export var ARRIVE_RADIUS: float = 2
 
@@ -32,7 +34,8 @@ func seek(target: Vector3):
 	steer_force = desired_velocity - get_current_velocity()
 	steer_force.limit_length(MAX_FORCE)
 	set_steer_force(steer_force)
-	
+
+@abstract func get_current_force() -> float
 @abstract func get_current_velocity() -> Vector3
 @abstract func set_steer_force(steering_force: Vector3)
 @abstract func get_vehicle_global_position() -> Vector3

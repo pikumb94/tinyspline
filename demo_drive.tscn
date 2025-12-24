@@ -1,10 +1,13 @@
 [gd_scene format=3 uid="uid://rviuvjmhioa8"]
 
+[ext_resource type="Script" uid="uid://c13hctrlbgwjx" path="res://addons/gevp/scripts/gui.gd" id="4_27i4j"]
 [ext_resource type="Script" uid="uid://dwiry5crf1wju" path="res://addons/gevp/scripts/camera.gd" id="5_7x7us"]
+[ext_resource type="Script" uid="uid://fqk5fv24mktr" path="res://debug_vehiclebody3d.gd" id="5_87hsh"]
+[ext_resource type="Script" uid="uid://nga3kpwhwl31" path="res://addons/gevp/scripts/debug_ui.gd" id="5_jgjpm"]
 [ext_resource type="PackedScene" uid="uid://bescp2mnljfad" path="res://Vehicles/car_sedan.tscn" id="6_jgjpm"]
-[ext_resource type="PackedScene" uid="uid://dxnvsoi1pvfeu" path="res://addons/gevp/scenes/track.tscn" id="6_xae8a"]
+[ext_resource type="PackedScene" path="res://addons/gevp/scenes/track.tscn" id="6_xae8a"]
 
-[node name="ArcadeDemo" type="Node3D" unique_id=1493492182]
+[node name="DemoDrive" type="Node3D" unique_id=1493492182]
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1145964858 node_paths=PackedStringArray("follow_this")]
 transform = Transform3D(1, 0, 0, 0, 0.989776, 0.142629, 0, -0.142629, 0.989776, 4.05282, 1.58316, 5.80061)
@@ -16,3 +19,46 @@ follow_this = NodePath("../CarSedan/VehicleBody3D")
 
 [node name="CarSedan" parent="." unique_id=1081700406 instance=ExtResource("6_jgjpm")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0.7, 0)
+
+[node name="GUI" type="Control" parent="." unique_id=1876899563 node_paths=PackedStringArray("vehicle")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("4_27i4j")
+vehicle = NodePath("../CarSedan")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUI" unique_id=1139298022]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Speed" type="Label" parent="GUI/VBoxContainer" unique_id=1318899969]
+layout_mode = 2
+
+[node name="RPM" type="Label" parent="GUI/VBoxContainer" unique_id=304266732]
+layout_mode = 2
+
+[node name="Gear" type="Label" parent="GUI/VBoxContainer" unique_id=1721471046]
+layout_mode = 2
+
+[node name="Debug" type="Node" parent="." unique_id=274826718 node_paths=PackedStringArray("vehicle")]
+script = ExtResource("5_87hsh")
+vehicle = NodePath("../CarSedan")
+
+[node name="DebugUI" type="Control" parent="Debug" unique_id=1515667225]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("5_jgjpm")
+metadata/_edit_use_anchors_ = true
+
+[editable path="CarSedan"]

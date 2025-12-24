@@ -3,7 +3,7 @@ extends Node3D
 @export var controlled_vehicle: Vehicle
 @export var path_to_follow: Path3D
 
-@export var FUTURE_OFFSET: float = 25.0
+@export var FUTURE_OFFSET: float = 1.0
 @export var DISTANCE_FROM_PATH: float = .05
 
 func _ready():
