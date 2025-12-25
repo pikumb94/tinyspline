@@ -18,12 +18,12 @@ collision_mask = 2
 [node name="Target" type="CollisionShape3D" parent="Area3D" unique_id=1908116317]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5091726, 0, -1.7037687)
 shape = SubResource("SphereShape3D_kt08h")
-debug_color = Color(0, 0.6, 0.69803923, 1)
+debug_color = Color(0, 0, 1, 1)
 
 [node name="Future" type="CollisionShape3D" parent="Area3D" unique_id=50126213]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.82793, 0, 1.4451908)
 shape = SubResource("SphereShape3D_55pmi")
-debug_color = Color(0.14509805, 0.64705884, 0, 0.64705884)
+debug_color = Color(0.14509805, 0, 0.654902, 0.64705884)
 
 [node name="SteerForceRaycast" type="RayCast3D" parent="." unique_id=7193993]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7745709, 0, 0)
