@@ -26,15 +26,18 @@ func _physics_process(delta: float):
 
 func get_current_velocity() -> Vector3:
 	return vehicle_body_3d.linear_velocity
-	
+
 func get_current_force() -> float:
 	return vehicle_body_3d.engine_force
 	
 func set_steer_force(steering_force: Vector3):
-	var right: Vector3 = vehicle_body_3d.global_transform.basis.x
+	var forward: Vector3 = vehicle_body_3d.global_transform.basis.z
+	var forward_sign: float = steering_force.dot(forward)
 	var steer_forward = steering_force.length() * vehicle_body_3d.mass
+	
+	var right: Vector3 = vehicle_body_3d.global_transform.basis.x
 	var steer_side = steering_force.dot(right)
-	vehicle_body_3d.engine_force = clamp(steer_forward,0,MAX_FORCE)
+	vehicle_body_3d.engine_force = clamp(forward_sign * steer_forward,-MAX_FORCE,MAX_FORCE)
 	vehicle_body_3d.steering = clamp(steer_side,-1,1)
 
 func get_vehicle_global_position() -> Vector3:

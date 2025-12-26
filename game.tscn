@@ -4,7 +4,16 @@
 [ext_resource type="PackedScene" uid="uid://c3ha85qhx222n" path="res://Player/player.tscn" id="1_e2o6t"]
 [ext_resource type="PackedScene" uid="uid://bescp2mnljfad" path="res://Vehicles/car_sedan.tscn" id="3_feb5d"]
 [ext_resource type="PackedScene" uid="uid://cgkvqh8y640vj" path="res://Controller.tscn" id="4_7jktm"]
-[ext_resource type="PackedScene" uid="uid://bv5yidq3pdqm0" path="res://Trajectory/trajectory.tscn" id="4_fc0e3"]
+[ext_resource type="Script" uid="uid://c13hctrlbgwjx" path="res://addons/gevp/scripts/gui.gd" id="6_ryrav"]
+
+[sub_resource type="Curve3D" id="Curve3D_7jktm"]
+closed = true
+bake_interval = 0.01
+_data = {
+"points": PackedVector3Array(8, 0, -8, -8, 0, 8, 8, 1, 8, 8, 0, 8, -8, 0, -8, -8.01, 1.3000001, 7.9600005, -8, 0, 8, 8, 0, -8, -8, 1, -8, -8, 0.25, -8, 8, -0.25, 8, 8, 1, -8.000001),
+"tilts": PackedFloat32Array(2.3701572, 0.2146755, 0, 0)
+}
+point_count = 4
 
 [node name="Game" type="Node3D" unique_id=2055739088]
 
@@ -13,11 +22,40 @@
 [node name="Level" parent="." unique_id=1109354553 instance=ExtResource("1_80nbo")]
 
 [node name="CarSedan" parent="." unique_id=1081700406 instance=ExtResource("3_feb5d")]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -7.9519024, 0.8999999, 4.6433396)
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -17.951902, 0.8999999, -0.106660366)
+ARRIVE_RADIUS = 1.0
 
 [node name="Controller" parent="." unique_id=364330167 node_paths=PackedStringArray("controlled_vehicle", "path_to_follow") instance=ExtResource("4_7jktm")]
 controlled_vehicle = NodePath("../CarSedan")
-path_to_follow = NodePath("../Trajectory/Path3D")
+path_to_follow = NodePath("../Path3D")
 
-[node name="Trajectory" parent="." unique_id=937586305 instance=ExtResource("4_fc0e3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+[node name="GUI" type="Control" parent="." unique_id=1990171404 node_paths=PackedStringArray("vehicle")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("6_ryrav")
+vehicle = NodePath("../CarSedan")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GUI" unique_id=670102646]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Speed" type="Label" parent="GUI/VBoxContainer" unique_id=57836632]
+layout_mode = 2
+
+[node name="RPM" type="Label" parent="GUI/VBoxContainer" unique_id=482061686]
+layout_mode = 2
+
+[node name="Gear" type="Label" parent="GUI/VBoxContainer" unique_id=1258178416]
+layout_mode = 2
+
+[node name="Path3D" type="Path3D" parent="." unique_id=1417378181]
+curve = SubResource("Curve3D_7jktm")
+debug_custom_color = Color(0.007843138, 0, 1, 1)

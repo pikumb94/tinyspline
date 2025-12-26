@@ -34,8 +34,15 @@ func _physics_process(delta: float):
 		#debug_draws
 		$Area3D/Future.global_position = get_future_positon()
 		$Area3D/Target.global_position = target_position
+		
+		#$NormalRaycast.global_position = curve.get_closest_point(current_future_position)
+		#$NormalRaycast.target_position = normal_vector
+		$NormalRaycast.global_position = controlled_vehicle.get_vehicle_global_position()
+		$NormalRaycast.target_position = controlled_vehicle.get_current_velocity()
+		
 		$DesiredVelocityRaycast.global_position = controlled_vehicle.get_vehicle_global_position()
 		$DesiredVelocityRaycast.target_position = controlled_vehicle.desired_velocity
+		
 		$SteerForceRaycast.global_position = controlled_vehicle.get_vehicle_global_position()
 		$SteerForceRaycast.target_position = controlled_vehicle.steer_force
 

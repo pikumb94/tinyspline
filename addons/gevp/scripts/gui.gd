@@ -14,6 +14,6 @@ func _process(delta):
 		gear_label.text = "Gear: " + str(vehicle_car.current_gear)
 
 	if vehicle:
-		speed_label.text = str(round(vehicle.get_current_velocity() * 3.6)) + " km/h"
+		speed_label.text = str(round(vehicle.get_current_velocity().length() * 3.6)) + " km/h"#str(round(vehicle.get_current_velocity() * 3.6)) + " km/h"
 		rpm_label.text = "Null" + " rpm"
 		gear_label.text = "Gear: " + "Null"
