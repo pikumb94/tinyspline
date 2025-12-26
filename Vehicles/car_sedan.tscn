@@ -15,6 +15,8 @@ wheel_array = [NodePath("VehicleBody3D/WheelFrontRight"), NodePath("VehicleBody3
 MAX_FORCE = 2500.0
 
 [node name="VehicleBody3D" type="VehicleBody3D" parent="." unique_id=1099192507]
+collision_layer = 2
+collision_mask = 3
 mass = 1500.0
 center_of_mass_mode = 1
 

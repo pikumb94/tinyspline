@@ -1,7 +1,7 @@
 extends Node3D
 
 @export var controlled_vehicle: Vehicle
-@export var path_to_follow: Path3D
+@export var node_to_follow: Node3D
 
 #the offset for the future position
 @export var FUTURE_OFFSET: float = 1.0
@@ -11,34 +11,39 @@ extends Node3D
 @export var PATH_RADIUS: float = .5
 
 func _ready():
-	if path_to_follow and controlled_vehicle:
+	if node_to_follow and controlled_vehicle:
 		controlled_vehicle.is_active = true
 
 		
 #controllers takes a vehicle that simply follows a path and decides the target frame by frame
 func _physics_process(delta: float):
-	if path_to_follow and controlled_vehicle:
-		var curve =  path_to_follow.curve
-		var current_future_position = get_future_positon()
-		var normal_vector = current_future_position - curve.get_closest_point(current_future_position)
-
-		var target_position = Vector3.ZERO
+	
+	if controlled_vehicle and node_to_follow:
 		
-		if normal_vector.length_squared() > PATH_RADIUS*PATH_RADIUS:
+		var target_position = node_to_follow.global_position
+		
+		if node_to_follow is Path3D:
+			var curve =  node_to_follow.curve
+			var current_future_position = get_future_positon()
+			var normal_vector = current_future_position - curve.get_closest_point(current_future_position)
+
 			#fmod helps to get the reminder when we are approaching the last point of the path
 			target_position = curve.sample_baked(fmod(curve.get_closest_offset(current_future_position)+TARGET_OFFSET, curve.get_baked_length()))
-		
-		if controlled_vehicle.is_active:
-			controlled_vehicle.seek(target_position)
 			
+			$NormalRaycast.global_position = curve.get_closest_point(current_future_position)
+			$NormalRaycast.target_position = normal_vector
+			
+			
+		#todo: whenver is inside the path continues to go forward
+		if controlled_vehicle.is_active: #and normal_vector.length_squared() > PATH_RADIUS*PATH_RADIUS:
+				controlled_vehicle.seek(target_position)
+				
 		#debug_draws
 		$Area3D/Future.global_position = get_future_positon()
 		$Area3D/Target.global_position = target_position
 		
-		#$NormalRaycast.global_position = curve.get_closest_point(current_future_position)
-		#$NormalRaycast.target_position = normal_vector
-		$NormalRaycast.global_position = controlled_vehicle.get_vehicle_global_position()
-		$NormalRaycast.target_position = controlled_vehicle.get_current_velocity()
+		$CurrentVelocityRaycast.global_position = controlled_vehicle.get_vehicle_global_position()
+		$CurrentVelocityRaycast.target_position = controlled_vehicle.get_current_velocity()
 		
 		$DesiredVelocityRaycast.global_position = controlled_vehicle.get_vehicle_global_position()
 		$DesiredVelocityRaycast.target_position = controlled_vehicle.desired_velocity

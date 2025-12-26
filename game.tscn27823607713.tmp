@@ -4,7 +4,6 @@
 [ext_resource type="PackedScene" uid="uid://c3ha85qhx222n" path="res://Player/player.tscn" id="1_e2o6t"]
 [ext_resource type="PackedScene" uid="uid://bescp2mnljfad" path="res://Vehicles/car_sedan.tscn" id="3_feb5d"]
 [ext_resource type="PackedScene" uid="uid://cgkvqh8y640vj" path="res://Controller.tscn" id="4_7jktm"]
-[ext_resource type="PackedScene" uid="uid://bbslgwd321pds" path="res://Token/token_vehicle.tscn" id="6_eow3j"]
 [ext_resource type="Script" uid="uid://c13hctrlbgwjx" path="res://addons/gevp/scripts/gui.gd" id="6_ryrav"]
 
 [sub_resource type="Curve3D" id="Curve3D_7jktm"]
@@ -26,9 +25,8 @@ point_count = 4
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -17.951902, 0.8999999, -0.106660366)
 ARRIVE_RADIUS = 1.0
 
-[node name="Controller" parent="." unique_id=364330167 node_paths=PackedStringArray("controlled_vehicle", "node_to_follow") instance=ExtResource("4_7jktm")]
+[node name="Controller" parent="." unique_id=364330167 node_paths=PackedStringArray("controlled_vehicle") instance=ExtResource("4_7jktm")]
 controlled_vehicle = NodePath("../CarSedan")
-node_to_follow = NodePath("../Path3D")
 FUTURE_OFFSET = 1.0
 TARGET_OFFSET = 3.0
 PATH_RADIUS = 1.0
@@ -65,13 +63,3 @@ curve = SubResource("Curve3D_7jktm")
 debug_custom_color = Color(0.007843138, 0, 1, 1)
 
 [node name="Marker3D" type="Marker3D" parent="." unique_id=1874591629]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.5, 0, -9.75)
-gizmo_extents = 0.7
-
-[node name="TokenVehicle" parent="." unique_id=1647552305 instance=ExtResource("6_eow3j")]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.75, 0.5, -13.5)
-velocity_multiplier = 2.0
-
-[node name="TokenVehicle2" parent="." unique_id=1605580281 instance=ExtResource("6_eow3j")]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.5, 0.5, 13.75)
-velocity_multiplier = -2.0

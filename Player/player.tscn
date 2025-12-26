@@ -2,12 +2,12 @@
 
 [node name="Player" type="Node3D" unique_id=388426921]
 
+[node name="Persp" type="Camera3D" parent="." unique_id=496542916]
+transform = Transform3D(1, 0, 0, 0, 0.7071068, 0.7071068, 0, -0.7071068, 0.7071068, 0, 15, 15)
+
 [node name="Ort" type="Camera3D" parent="." unique_id=268438273]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 20, 0)
 projection = 1
 size = 30.0
 near = 0.011
 far = 4035.2
-
-[node name="Persp" type="Camera3D" parent="." unique_id=496542916]
-transform = Transform3D(1, 0, 0, 0, 0.7071068, 0.7071068, 0, -0.7071068, 0.7071068, 0, 15, 15)
