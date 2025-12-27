@@ -36,9 +36,12 @@ func set_steer_force(steering_force: Vector3):
 	var steer_forward = steering_force.length() * vehicle_body_3d.mass
 	
 	var right: Vector3 = vehicle_body_3d.global_transform.basis.x
-	var steer_side = steering_force.dot(right)
+	
+	#this "/speed_multiplier" allows value of steering that does not go directly to 1 or -1 (otherwise the car jiggles)
+	var steer_side = steering_force.dot(right)/ speed_multiplier
 	vehicle_body_3d.engine_force = clamp(forward_sign * steer_forward,-MAX_FORCE,MAX_FORCE)
 	vehicle_body_3d.steering = clamp(steer_side,-1,1)
+
 
 func get_vehicle_global_position() -> Vector3:
 	return vehicle_body_3d.global_position
