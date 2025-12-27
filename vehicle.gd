@@ -8,6 +8,8 @@ extends Node3D
 #limits the force to allow huge forces behaviors: the vehicle can reach a maxforce at the end
 @export var MAX_FORCE: float = 1000
 
+#to apply status buff and debuff to vehicle
+var speed_multiplier: float = 1.0
 
 #target position is updated and changed by the controller who is the brain/soul of the vehicle...
 var desired_velocity: Vector3 = Vector3.ZERO
@@ -26,6 +28,9 @@ func seek(target: Vector3):
 	else:
 		desired_velocity.limit_length(MAX_SPEED)
 	
+	#this is used for TOKEN vehicle to handle the speed
+	desired_velocity*= speed_multiplier
+	
 	#Reynold's formula
 	steer_force = desired_velocity - get_current_velocity()
 	steer_force.limit_length(MAX_FORCE)
@@ -35,3 +40,10 @@ func seek(target: Vector3):
 @abstract func get_current_velocity() -> Vector3
 @abstract func set_steer_force(steering_force: Vector3)
 @abstract func get_vehicle_global_position() -> Vector3
+
+func apply_speed_multiplier(duration: float, new_multiplier_value: float):
+	speed_multiplier = new_multiplier_value
+	#var tween := create_tween()
+	#tween.tween_interval(duration)
+	#tween.tween_callback(func(): )
+	create_tween().tween_callback(func(): speed_multiplier= 1.0).set_delay(new_multiplier_value)
