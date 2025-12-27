@@ -46,4 +46,4 @@ func apply_speed_multiplier(duration: float, new_multiplier_value: float):
 	#var tween := create_tween()
 	#tween.tween_interval(duration)
 	#tween.tween_callback(func(): )
-	create_tween().tween_callback(func(): speed_multiplier= 1.0).set_delay(new_multiplier_value)
+	create_tween().tween_callback(func(): speed_multiplier= 1.0).set_delay(duration)

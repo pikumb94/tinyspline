@@ -32,15 +32,24 @@ func get_current_force() -> float:
 	
 func set_steer_force(steering_force: Vector3):
 	var forward: Vector3 = vehicle_body_3d.global_transform.basis.z
+	var right: Vector3 = vehicle_body_3d.global_transform.basis.x
+	var steer_side: float = .0
+	
+	var is_forward = forward.dot(vehicle_body_3d.linear_velocity)
+	#this "/speed_multiplier" allows value of steering that does not go directly to 1 or -1 (otherwise the car jiggles)
+	#the "is_forward" check is to handle the "reverse" gear when the vehicle is reversed wrt the path correct direction
+	if is_forward >=0:
+		steer_side = steering_force.dot(right)/ speed_multiplier
+	else:
+		steer_side = -steering_force.dot(right)/ speed_multiplier
+
+
 	var forward_sign: float = steering_force.dot(forward)
 	var steer_forward = steering_force.length() * vehicle_body_3d.mass
 	
-	var right: Vector3 = vehicle_body_3d.global_transform.basis.x
 	
-	#this "/speed_multiplier" allows value of steering that does not go directly to 1 or -1 (otherwise the car jiggles)
-	var steer_side = steering_force.dot(right)/ speed_multiplier
-	vehicle_body_3d.engine_force = clamp(forward_sign * steer_forward,-MAX_FORCE,MAX_FORCE)
 	vehicle_body_3d.steering = clamp(steer_side,-1,1)
+	vehicle_body_3d.engine_force = clamp(forward_sign * steer_forward,-MAX_FORCE,MAX_FORCE)
 
 
 func get_vehicle_global_position() -> Vector3:
