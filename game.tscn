@@ -70,8 +70,8 @@ gizmo_extents = 0.7
 
 [node name="TokenVehicle" parent="." unique_id=1647552305 instance=ExtResource("6_eow3j")]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.75, 0.5, -13.5)
-velocity_multiplier = 2.0
+speed_multiplier = 5.0
 
 [node name="TokenVehicle2" parent="." unique_id=1605580281 instance=ExtResource("6_eow3j")]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.5, 0.5, 13.75)
-velocity_multiplier = -2.0
+speed_multiplier = 5.0
