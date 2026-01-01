@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://dep3ac6vrc8b7"]
 
+[ext_resource type="MeshLibrary" uid="uid://b1xbjs7wnjwed" path="res://Assets/RoadMeshLibrary.tres" id="1_o6mkr"]
+
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_yfk6w"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
 ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -35,3 +37,10 @@ mesh = SubResource("PlaneMesh_yfk6w")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Ground/StaticBody3D" unique_id=269171798]
 shape = SubResource("WorldBoundaryShape3D_o6mkr")
+
+[node name="GridMap" type="GridMap" parent="." unique_id=418253273]
+mesh_library = ExtResource("1_o6mkr")
+cell_size = Vector3(0.5, 1, 0.5)
+data = {
+"cells": PackedInt32Array(26, 65517, 655649, 20, 65517, 1442081, 26, 65523, 1048865, 20, 65523, 289, 12, 65534, 655472, 18, 65534, 119, 24, 65534, 655479)
+}

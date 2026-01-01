@@ -1,0 +1,1514 @@
+[gd_scene format=3 uid="uid://b0tpyxi8fb4ua"]
+
+[ext_resource type="ArrayMesh" uid="uid://bhs6hdgj7b418" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_001.obj" id="1_6rkqx"]
+[ext_resource type="ArrayMesh" uid="uid://co4rvpfw25day" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_002.obj" id="2_0whgd"]
+[ext_resource type="ArrayMesh" uid="uid://rehf5igfwy84" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_003.obj" id="3_jrhvo"]
+[ext_resource type="ArrayMesh" uid="uid://chbc0gpnj2ef0" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_004.obj" id="4_kifd4"]
+[ext_resource type="ArrayMesh" uid="uid://55ugrmhohyjy" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_005.obj" id="5_pq5u7"]
+[ext_resource type="ArrayMesh" uid="uid://bmy8qny1par1s" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_006.obj" id="6_wkckr"]
+[ext_resource type="ArrayMesh" uid="uid://be26vxiopa8u3" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_007.obj" id="7_0adpo"]
+[ext_resource type="ArrayMesh" uid="uid://b3judsguhjjr3" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_008.obj" id="8_t6rpj"]
+[ext_resource type="ArrayMesh" uid="uid://c3ae6a1l3tt6x" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_009.obj" id="9_65mfd"]
+[ext_resource type="ArrayMesh" uid="uid://bxd3w4n501dfv" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_010.obj" id="10_aqln0"]
+[ext_resource type="ArrayMesh" uid="uid://c2f7wckj6b6lg" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_011.obj" id="11_yav7a"]
+[ext_resource type="ArrayMesh" uid="uid://us6bmqfetl5c" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_012.obj" id="12_dfksp"]
+[ext_resource type="ArrayMesh" uid="uid://biajp8l8qlb1v" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_013.obj" id="13_q15fn"]
+[ext_resource type="ArrayMesh" uid="uid://be5jhwl3editp" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_014.obj" id="14_b6703"]
+[ext_resource type="ArrayMesh" uid="uid://bjgr3of36ln4m" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_015.obj" id="15_h8d7c"]
+[ext_resource type="ArrayMesh" uid="uid://dao1glpdr4ugb" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_016.obj" id="16_e6uk8"]
+[ext_resource type="ArrayMesh" uid="uid://h6eag8k8m7k7" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_017.obj" id="17_p7xuc"]
+[ext_resource type="ArrayMesh" uid="uid://csq5trc748hoi" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_018.obj" id="18_fcu0r"]
+[ext_resource type="ArrayMesh" uid="uid://byb8i4qidlk2w" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_019.obj" id="19_t2vtt"]
+[ext_resource type="ArrayMesh" uid="uid://dy6fg7wbpbcfy" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_020.obj" id="20_uoff6"]
+[ext_resource type="ArrayMesh" uid="uid://ng3igskkiy2u" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_021.obj" id="21_nlrgc"]
+[ext_resource type="ArrayMesh" uid="uid://r5h1622ho5au" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_022.obj" id="22_mhhow"]
+[ext_resource type="ArrayMesh" uid="uid://dq4j2ra5iunsv" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_023.obj" id="23_qc2j5"]
+[ext_resource type="ArrayMesh" uid="uid://0isdiav36e7l" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_024.obj" id="24_m7or3"]
+[ext_resource type="ArrayMesh" uid="uid://c5vfk07vu4kdk" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_025.obj" id="25_2nw06"]
+[ext_resource type="ArrayMesh" uid="uid://wguiqihvbjyy" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_026.obj" id="26_65k2v"]
+[ext_resource type="ArrayMesh" uid="uid://bhiey6b00inos" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_027.obj" id="27_utv2f"]
+[ext_resource type="ArrayMesh" uid="uid://c36wvxbhub4n" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_028.obj" id="28_e4bu4"]
+[ext_resource type="ArrayMesh" uid="uid://xmxp8br3ix1t" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_029.obj" id="29_kserd"]
+[ext_resource type="ArrayMesh" uid="uid://cypou8ai5tcrj" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_030.obj" id="30_8cj2v"]
+[ext_resource type="ArrayMesh" uid="uid://f4llowswk6a3" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_031.obj" id="31_0ab6r"]
+[ext_resource type="ArrayMesh" uid="uid://d2ls2nps60dck" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_032.obj" id="32_riro3"]
+[ext_resource type="ArrayMesh" uid="uid://dj6bpi28dsekw" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_033.obj" id="33_suxp4"]
+[ext_resource type="ArrayMesh" uid="uid://cwlnnyrmnijxt" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_034.obj" id="34_tvxgs"]
+[ext_resource type="ArrayMesh" uid="uid://cpr0f2eignp4a" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_035.obj" id="35_drwif"]
+[ext_resource type="ArrayMesh" uid="uid://dmgl0338ewqc0" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_036.obj" id="36_2lbjv"]
+[ext_resource type="ArrayMesh" uid="uid://daguasyakqhi3" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_037.obj" id="37_ccvxc"]
+[ext_resource type="ArrayMesh" uid="uid://cayf8nfkhmnfc" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_038.obj" id="38_h2vgw"]
+[ext_resource type="ArrayMesh" uid="uid://cmijv3xrr01s7" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_039.obj" id="39_4whs7"]
+[ext_resource type="ArrayMesh" uid="uid://co1qlovlsiy5p" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_040.obj" id="40_86kfy"]
+[ext_resource type="ArrayMesh" uid="uid://ma5p18ky2xjx" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_041.obj" id="41_gfi4x"]
+[ext_resource type="ArrayMesh" uid="uid://dwy8s508tb324" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_042.obj" id="42_pxcyo"]
+[ext_resource type="ArrayMesh" uid="uid://b58hcc0gt05lv" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_043.obj" id="43_dsqol"]
+[ext_resource type="ArrayMesh" uid="uid://dclldlkep548t" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_044.obj" id="44_e2kre"]
+[ext_resource type="ArrayMesh" uid="uid://dbkxtjxoh73ym" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_045.obj" id="45_8xvdx"]
+[ext_resource type="ArrayMesh" uid="uid://dsf7c5u5ts8is" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_046.obj" id="46_1wctd"]
+[ext_resource type="ArrayMesh" uid="uid://dleiij1cnm6xa" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_047.obj" id="47_d1ldb"]
+[ext_resource type="ArrayMesh" uid="uid://v4db6sg0sa10" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_048.obj" id="48_y1wla"]
+[ext_resource type="ArrayMesh" uid="uid://t8ubgb5tegop" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_049.obj" id="49_kpakq"]
+[ext_resource type="ArrayMesh" uid="uid://bjodt44riyo2" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_050.obj" id="50_rodwn"]
+[ext_resource type="ArrayMesh" uid="uid://chcly2awy06jd" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_051.obj" id="51_h32ok"]
+[ext_resource type="ArrayMesh" uid="uid://vv2xa6tmak4c" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_052.obj" id="52_yna7y"]
+[ext_resource type="ArrayMesh" uid="uid://udb0mo7eqo2h" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_053.obj" id="53_8mvi1"]
+[ext_resource type="ArrayMesh" uid="uid://dw3umfd00rqod" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_054.obj" id="54_iyr0q"]
+[ext_resource type="ArrayMesh" uid="uid://rx0hkqdmuvl" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_055.obj" id="55_rw17h"]
+[ext_resource type="ArrayMesh" uid="uid://c815m1wujh06w" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_056.obj" id="56_ptcms"]
+[ext_resource type="ArrayMesh" uid="uid://bk6u1e5dvl25g" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_057.obj" id="57_skos4"]
+[ext_resource type="ArrayMesh" uid="uid://u45fmtfv1pmu" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_058.obj" id="58_ivfx8"]
+[ext_resource type="ArrayMesh" uid="uid://6l1tkq6nfgpl" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_059.obj" id="59_u3yx8"]
+[ext_resource type="ArrayMesh" uid="uid://ce2nx5kq31kc" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_060.obj" id="60_i14lp"]
+[ext_resource type="ArrayMesh" uid="uid://bj5ff881o81jh" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_061.obj" id="61_l30fl"]
+[ext_resource type="ArrayMesh" uid="uid://lckxbeatlw0o" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_062.obj" id="62_iu18s"]
+[ext_resource type="ArrayMesh" uid="uid://c6ixa2jgrs5r4" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_063.obj" id="63_stp2q"]
+[ext_resource type="ArrayMesh" uid="uid://kgcbnh3meu76" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_064.obj" id="64_jiu1j"]
+[ext_resource type="ArrayMesh" uid="uid://dryeba3l3jxnt" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_065.obj" id="65_sfgtt"]
+[ext_resource type="ArrayMesh" uid="uid://0al0pp5t78so" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_066.obj" id="66_vxk1h"]
+[ext_resource type="ArrayMesh" uid="uid://bxlq1tduknb2l" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_067.obj" id="67_xx77l"]
+[ext_resource type="ArrayMesh" uid="uid://bbhpul8miycpl" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_068.obj" id="68_buaiu"]
+[ext_resource type="ArrayMesh" uid="uid://fkex7barjg44" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_069.obj" id="69_twqjv"]
+[ext_resource type="ArrayMesh" uid="uid://b243o7ck7hq7g" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_070.obj" id="70_vd731"]
+[ext_resource type="ArrayMesh" uid="uid://ckhs2vk85s7uw" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_071.obj" id="71_72m8u"]
+[ext_resource type="ArrayMesh" uid="uid://x753teiy3g8b" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_072.obj" id="72_0c3ws"]
+[ext_resource type="ArrayMesh" uid="uid://db8khv1c43ev3" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_073.obj" id="73_toik4"]
+[ext_resource type="ArrayMesh" uid="uid://dxlel8ogcqw6w" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_074.obj" id="74_21c1g"]
+[ext_resource type="ArrayMesh" uid="uid://c1ddbpdbkxnwm" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_075.obj" id="75_l67ix"]
+[ext_resource type="ArrayMesh" uid="uid://blf5m8c435mal" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_076.obj" id="76_a30o3"]
+[ext_resource type="ArrayMesh" uid="uid://dh8jsxw2byr5c" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_077.obj" id="77_vadr3"]
+[ext_resource type="ArrayMesh" uid="uid://clf4wkdiysh0q" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_078.obj" id="78_yqa08"]
+[ext_resource type="ArrayMesh" uid="uid://d3a3k66llcf6m" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_079.obj" id="79_cnxnq"]
+[ext_resource type="ArrayMesh" uid="uid://cthgbdt6utu55" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_080.obj" id="80_7np1e"]
+[ext_resource type="ArrayMesh" uid="uid://w7n64ii2q7v1" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_081.obj" id="81_b4174"]
+[ext_resource type="ArrayMesh" uid="uid://6frmierqywwp" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_082.obj" id="82_yss7j"]
+[ext_resource type="ArrayMesh" uid="uid://odp4k5a5u4bb" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_083.obj" id="83_glfak"]
+[ext_resource type="ArrayMesh" uid="uid://by3dkubi3bfe6" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_084.obj" id="84_ykifo"]
+[ext_resource type="ArrayMesh" uid="uid://c6w8nwjqk6gi" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_085.obj" id="85_qfluw"]
+[ext_resource type="ArrayMesh" uid="uid://blwr35rolysb0" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_086.obj" id="86_1y0jg"]
+[ext_resource type="ArrayMesh" uid="uid://tvttd57nxtx5" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_087.obj" id="87_1ahbw"]
+[ext_resource type="ArrayMesh" uid="uid://drfprdxg136xd" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_088.obj" id="88_t78gv"]
+[ext_resource type="ArrayMesh" uid="uid://l7btc08n56kb" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_089.obj" id="89_h8in6"]
+[ext_resource type="ArrayMesh" uid="uid://bbb2q131i2fj5" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_090.obj" id="90_rfsux"]
+[ext_resource type="ArrayMesh" uid="uid://dgqd8y34d8y4t" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_091.obj" id="91_fbxnm"]
+[ext_resource type="ArrayMesh" uid="uid://bi3s7spqac77o" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_092.obj" id="92_j54xl"]
+[ext_resource type="ArrayMesh" uid="uid://dnh3255cju3h4" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_093.obj" id="93_3c221"]
+[ext_resource type="ArrayMesh" uid="uid://du80130eratyd" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_094.obj" id="94_0xdhs"]
+[ext_resource type="ArrayMesh" uid="uid://dyaqoesg4rsgt" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_095.obj" id="95_v8u5m"]
+[ext_resource type="ArrayMesh" uid="uid://8rta66owia3x" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_096.obj" id="96_l1wqh"]
+[ext_resource type="ArrayMesh" uid="uid://vrijkq3nnjy4" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_097.obj" id="97_7yr6g"]
+[ext_resource type="ArrayMesh" uid="uid://cgk8e2hv84hde" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_098.obj" id="98_qu17y"]
+[ext_resource type="ArrayMesh" uid="uid://cdyn8x6jcs824" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_099.obj" id="99_1i2fr"]
+[ext_resource type="ArrayMesh" uid="uid://dqquvs8il4nhf" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_100.obj" id="100_ajb6j"]
+[ext_resource type="ArrayMesh" uid="uid://sqnavv6adqal" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_101.obj" id="101_ipylh"]
+[ext_resource type="ArrayMesh" uid="uid://obcgacbqwpvs" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_102.obj" id="102_33e6b"]
+[ext_resource type="ArrayMesh" uid="uid://cn4m246vtyvj5" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_103.obj" id="103_l0n6b"]
+[ext_resource type="ArrayMesh" uid="uid://c7cvotomj636q" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_104.obj" id="104_2u8fw"]
+[ext_resource type="ArrayMesh" uid="uid://mi11m3fokxir" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_105.obj" id="105_i73hl"]
+[ext_resource type="ArrayMesh" uid="uid://c7rpmev5r41cp" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_106.obj" id="106_yimuh"]
+[ext_resource type="ArrayMesh" uid="uid://dbu3jktx4u33i" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_107.obj" id="107_2n0px"]
+[ext_resource type="ArrayMesh" uid="uid://cl1lhman1hkw7" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_108.obj" id="108_jgmdt"]
+[ext_resource type="ArrayMesh" uid="uid://c328y0j3jf0y8" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_109.obj" id="109_8gc5u"]
+[ext_resource type="ArrayMesh" uid="uid://b7egcyx6yu3k5" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_110.obj" id="110_c1tls"]
+[ext_resource type="ArrayMesh" uid="uid://dxayq631r7j2n" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_111.obj" id="111_jxfua"]
+[ext_resource type="ArrayMesh" uid="uid://bkwqd6gtqq3x5" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_112.obj" id="112_yknbm"]
+[ext_resource type="ArrayMesh" uid="uid://d1y15cip26suq" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_113.obj" id="113_ofwak"]
+[ext_resource type="ArrayMesh" uid="uid://dr27klnkloclq" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_114.obj" id="114_m1k87"]
+[ext_resource type="ArrayMesh" uid="uid://y5q57012p4lq" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_115.obj" id="115_0ry27"]
+[ext_resource type="ArrayMesh" uid="uid://3yuymkvt43vc" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_116.obj" id="116_w3wvg"]
+[ext_resource type="ArrayMesh" uid="uid://lvdhap7q5j4v" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_117.obj" id="117_dp62x"]
+[ext_resource type="ArrayMesh" uid="uid://bakrsdf2mn3x3" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_118.obj" id="118_34oop"]
+[ext_resource type="ArrayMesh" uid="uid://denjxl372vi21" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_119.obj" id="119_863u7"]
+[ext_resource type="ArrayMesh" uid="uid://cir2ayibc3utk" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_120.obj" id="120_nibkn"]
+[ext_resource type="ArrayMesh" uid="uid://tewe3xmm21dq" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_121.obj" id="121_8fui6"]
+[ext_resource type="ArrayMesh" uid="uid://b87btfpp1u648" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_122.obj" id="122_jmqqv"]
+[ext_resource type="ArrayMesh" uid="uid://baktwvn1kd233" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_123.obj" id="123_w1v7d"]
+[ext_resource type="ArrayMesh" uid="uid://djbqj8iw0fq8h" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_124.obj" id="124_miqfh"]
+[ext_resource type="ArrayMesh" uid="uid://d2sohfvde3lqj" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_125.obj" id="125_kf2mn"]
+[ext_resource type="ArrayMesh" uid="uid://c3j7dqixdxte7" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_126.obj" id="126_dcou8"]
+[ext_resource type="ArrayMesh" uid="uid://ci0b1dcxpnr8j" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_127.obj" id="127_36m1m"]
+[ext_resource type="ArrayMesh" uid="uid://xiqeckgv1hpc" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_128.obj" id="128_2h6oi"]
+[ext_resource type="ArrayMesh" uid="uid://dr0wjo2tl3g1h" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_129.obj" id="129_hayqr"]
+[ext_resource type="ArrayMesh" uid="uid://dd3ewncwpj86a" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_130.obj" id="130_8xsxr"]
+[ext_resource type="ArrayMesh" uid="uid://bngr6ewn2ay7v" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_131.obj" id="131_nxfdo"]
+[ext_resource type="ArrayMesh" uid="uid://dpw0kno8lni5b" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_132.obj" id="132_hti4e"]
+[ext_resource type="ArrayMesh" uid="uid://bffh35t3wmj4j" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_133.obj" id="133_t5vw6"]
+[ext_resource type="ArrayMesh" uid="uid://xsjttpmq7dog" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_134.obj" id="134_5h67n"]
+[ext_resource type="ArrayMesh" uid="uid://brit6xcl3weor" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_135.obj" id="135_0n5f3"]
+[ext_resource type="ArrayMesh" uid="uid://wc1a8y1p6b2m" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_136.obj" id="136_r4ht1"]
+[ext_resource type="ArrayMesh" uid="uid://ceck773ut4f5q" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_137.obj" id="137_mfkvh"]
+[ext_resource type="ArrayMesh" uid="uid://b71m4qe0bi0bd" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_138.obj" id="138_lhjgj"]
+[ext_resource type="ArrayMesh" uid="uid://bcod6xfjejeyh" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_139.obj" id="139_xpa3f"]
+[ext_resource type="ArrayMesh" uid="uid://bi6wp8vdbu18g" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_140.obj" id="140_wknvr"]
+[ext_resource type="ArrayMesh" uid="uid://rxvxsigj4omr" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_141.obj" id="141_3ujrf"]
+[ext_resource type="ArrayMesh" uid="uid://nq87tydi7g3r" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_142.obj" id="142_vaf4s"]
+[ext_resource type="ArrayMesh" uid="uid://dwnnldyhvuygt" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_143.obj" id="143_43lqd"]
+[ext_resource type="ArrayMesh" uid="uid://cyeulijmd4nvi" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_144.obj" id="144_rgvvw"]
+[ext_resource type="ArrayMesh" uid="uid://nxokp50taxr4" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_145.obj" id="145_65fex"]
+[ext_resource type="ArrayMesh" uid="uid://cawa63d65c4m8" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_146.obj" id="146_uadf8"]
+[ext_resource type="ArrayMesh" uid="uid://da6dqov32cysp" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_147.obj" id="147_6k0bi"]
+[ext_resource type="ArrayMesh" uid="uid://dr52dpwu5jbok" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_148.obj" id="148_stsbk"]
+[ext_resource type="ArrayMesh" uid="uid://b03ckygnr55li" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_149.obj" id="149_snl2c"]
+[ext_resource type="ArrayMesh" uid="uid://jnecseslk1o6" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_150.obj" id="150_esum3"]
+[ext_resource type="ArrayMesh" uid="uid://5k830b0ej2q5" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_151.obj" id="151_cgb1u"]
+[ext_resource type="ArrayMesh" uid="uid://dkmqgj1e0ebou" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_152.obj" id="152_0s1ta"]
+[ext_resource type="ArrayMesh" uid="uid://cm76avdgm8yf3" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_153.obj" id="153_eejke"]
+[ext_resource type="ArrayMesh" uid="uid://cah40exq5dc3c" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_154.obj" id="154_he03m"]
+[ext_resource type="ArrayMesh" uid="uid://d03rlweauq0bg" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_155.obj" id="155_bcg2a"]
+[ext_resource type="ArrayMesh" uid="uid://c8thrisvkw0u5" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_156.obj" id="156_eo2oo"]
+[ext_resource type="ArrayMesh" uid="uid://cl2717uvthuj0" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_157.obj" id="157_bwdtx"]
+[ext_resource type="ArrayMesh" uid="uid://c2ch1ojmnywy" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_158.obj" id="158_7p1f2"]
+[ext_resource type="ArrayMesh" uid="uid://dqb62pabg3f8q" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_159.obj" id="159_g5jmt"]
+[ext_resource type="ArrayMesh" uid="uid://d01rqqfdrpaar" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_160.obj" id="160_kbw7d"]
+[ext_resource type="ArrayMesh" uid="uid://bxj1dt626rhn8" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_161.obj" id="161_7q3ll"]
+[ext_resource type="ArrayMesh" uid="uid://bbxkdtw6c5177" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_162.obj" id="162_ty07e"]
+[ext_resource type="ArrayMesh" uid="uid://vgdfujjngj0r" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_163.obj" id="163_a00m4"]
+[ext_resource type="ArrayMesh" uid="uid://dyboklqf07s2i" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_164.obj" id="164_eujfg"]
+[ext_resource type="ArrayMesh" uid="uid://b4vt5whdv5eq" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_165.obj" id="165_pd7yb"]
+[ext_resource type="ArrayMesh" uid="uid://cehaj2esvqqrd" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_166.obj" id="166_0fo5o"]
+[ext_resource type="ArrayMesh" uid="uid://ctl8vh4vm2l3s" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_167.obj" id="167_x6epm"]
+[ext_resource type="ArrayMesh" uid="uid://b51jgfmelmcfx" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_168.obj" id="168_07014"]
+[ext_resource type="ArrayMesh" uid="uid://c4lja42shqp0o" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_169.obj" id="169_prin0"]
+[ext_resource type="ArrayMesh" uid="uid://d4h4mpromct4y" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_170.obj" id="170_vrg40"]
+[ext_resource type="ArrayMesh" uid="uid://cecr5ja18wr2y" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_171.obj" id="171_d1u2h"]
+[ext_resource type="ArrayMesh" uid="uid://c7rpt20suq7qt" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_172.obj" id="172_86pii"]
+[ext_resource type="ArrayMesh" uid="uid://cg0ehvhv55r86" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_173.obj" id="173_whx4j"]
+[ext_resource type="ArrayMesh" uid="uid://nty00vj84i7w" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_174.obj" id="174_c4x16"]
+[ext_resource type="ArrayMesh" uid="uid://sjyvq3mq5tso" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_175.obj" id="175_0g86y"]
+[ext_resource type="ArrayMesh" uid="uid://b5us0bieluefl" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_176.obj" id="176_7ln4v"]
+[ext_resource type="ArrayMesh" uid="uid://4v02i3o4236u" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_177.obj" id="177_vk8no"]
+[ext_resource type="ArrayMesh" uid="uid://bugdbr4ax5qhw" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_178.obj" id="178_rinx5"]
+[ext_resource type="ArrayMesh" uid="uid://6hurm0p801tn" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_179.obj" id="179_yn3em"]
+[ext_resource type="ArrayMesh" uid="uid://blvsf8mojepwe" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_180.obj" id="180_grfm8"]
+[ext_resource type="ArrayMesh" uid="uid://du66ngnfgpq4o" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_181.obj" id="181_bd3aj"]
+[ext_resource type="ArrayMesh" uid="uid://c7vd000arflj7" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_182.obj" id="182_kt86l"]
+[ext_resource type="ArrayMesh" uid="uid://b44rsse0064am" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_183.obj" id="183_32s5a"]
+[ext_resource type="ArrayMesh" uid="uid://fsasmxqrq3g" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_184.obj" id="184_d5clm"]
+[ext_resource type="ArrayMesh" uid="uid://uk2tgtco8l54" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_185.obj" id="185_1uiux"]
+[ext_resource type="ArrayMesh" uid="uid://kscbufej658w" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_186.obj" id="186_aylri"]
+[ext_resource type="ArrayMesh" uid="uid://co32rbfydnv2f" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_187.obj" id="187_8ki2p"]
+[ext_resource type="ArrayMesh" uid="uid://dnv3tybeo3wp5" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_188.obj" id="188_1nwfe"]
+[ext_resource type="ArrayMesh" uid="uid://b12kvr5jhww6v" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_189.obj" id="189_66qbq"]
+[ext_resource type="ArrayMesh" uid="uid://c5tqlp33v00fb" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_190.obj" id="190_ebf3j"]
+[ext_resource type="ArrayMesh" uid="uid://peoodibso421" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_191.obj" id="191_ybctw"]
+[ext_resource type="ArrayMesh" uid="uid://dl3x264j3go8u" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_192.obj" id="192_i768x"]
+[ext_resource type="ArrayMesh" uid="uid://cm6rcp6pvrrpy" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_193.obj" id="193_5cf2f"]
+[ext_resource type="ArrayMesh" uid="uid://bwsbbgsay7h3j" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_194.obj" id="194_7v0ls"]
+[ext_resource type="ArrayMesh" uid="uid://dbao0erskf3l7" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_195.obj" id="195_avpo6"]
+[ext_resource type="ArrayMesh" uid="uid://um4dtyumo22u" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_196.obj" id="196_2grdu"]
+[ext_resource type="ArrayMesh" uid="uid://bfmmr5xmecg0f" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_197.obj" id="197_eu0o5"]
+[ext_resource type="ArrayMesh" uid="uid://dsxfxxwi6bkrr" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_198.obj" id="198_qymyu"]
+[ext_resource type="ArrayMesh" uid="uid://wcvrbivlqaml" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_199.obj" id="199_h5cle"]
+[ext_resource type="ArrayMesh" uid="uid://clsx35l8ajmwl" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_200.obj" id="200_y3p65"]
+[ext_resource type="ArrayMesh" uid="uid://d3u0vqyhs21ll" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_201.obj" id="201_cwoxe"]
+[ext_resource type="ArrayMesh" uid="uid://boeqgqa4dm156" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_202.obj" id="202_qdndd"]
+[ext_resource type="ArrayMesh" uid="uid://bo7j3acps8gp8" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_203.obj" id="203_tqor0"]
+[ext_resource type="ArrayMesh" uid="uid://co2olhmoagdyn" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_204.obj" id="204_4e1kd"]
+[ext_resource type="ArrayMesh" uid="uid://b5e55cxvm3bfg" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_205.obj" id="205_8v72c"]
+[ext_resource type="ArrayMesh" uid="uid://daaad67fsyxae" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_206.obj" id="206_uf8r2"]
+[ext_resource type="ArrayMesh" uid="uid://dur2y8s63ygym" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_207.obj" id="207_yepwy"]
+[ext_resource type="ArrayMesh" uid="uid://csgh5bftulha8" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_208.obj" id="208_i6vre"]
+[ext_resource type="ArrayMesh" uid="uid://dxu76w5bebg58" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_209.obj" id="209_v60pa"]
+[ext_resource type="ArrayMesh" uid="uid://b8wl1o4t75r3d" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_210.obj" id="210_1w4kh"]
+[ext_resource type="ArrayMesh" uid="uid://dgjs1gx5uimvg" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_211.obj" id="211_ktt2l"]
+[ext_resource type="ArrayMesh" uid="uid://bjdh757ejs64g" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_212.obj" id="212_beje5"]
+[ext_resource type="ArrayMesh" uid="uid://fqf3urvr3tkx" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_213.obj" id="213_6cspo"]
+[ext_resource type="ArrayMesh" uid="uid://b5xvev6x3dlel" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_214.obj" id="214_1iuet"]
+[ext_resource type="ArrayMesh" uid="uid://i8js6ri7af5m" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_215.obj" id="215_ikys1"]
+[ext_resource type="ArrayMesh" uid="uid://bcxrh3mc6ay4s" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_216.obj" id="216_shsg5"]
+[ext_resource type="ArrayMesh" uid="uid://bs6glxcx5ew4i" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_217.obj" id="217_pf62x"]
+[ext_resource type="ArrayMesh" uid="uid://dlnoaq22ac0y1" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_218.obj" id="218_bfsta"]
+[ext_resource type="ArrayMesh" uid="uid://bsmiitxqw35tx" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_219.obj" id="219_11c86"]
+[ext_resource type="ArrayMesh" uid="uid://fcqhrtt886eo" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_220.obj" id="220_8000w"]
+[ext_resource type="ArrayMesh" uid="uid://duqhun5khoyjd" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_221.obj" id="221_ovfvb"]
+[ext_resource type="ArrayMesh" uid="uid://d2jr2sbjtdut1" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_222.obj" id="222_mntwj"]
+[ext_resource type="ArrayMesh" uid="uid://d2juusal255hr" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_223.obj" id="223_6hje1"]
+[ext_resource type="ArrayMesh" uid="uid://x1rtdbcogdkn" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_224.obj" id="224_gyusm"]
+[ext_resource type="ArrayMesh" uid="uid://d1xwhk3o7kang" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_225.obj" id="225_d3wxk"]
+[ext_resource type="ArrayMesh" uid="uid://bfc8e11fyuvhc" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_226.obj" id="226_eubpc"]
+[ext_resource type="ArrayMesh" uid="uid://bqum5c5pkunla" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_227.obj" id="227_x1vvy"]
+[ext_resource type="ArrayMesh" uid="uid://rq8pvdk01nsx" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_228.obj" id="228_djmu0"]
+[ext_resource type="ArrayMesh" uid="uid://dhvecad6crh1g" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_229.obj" id="229_pf7h5"]
+[ext_resource type="ArrayMesh" uid="uid://c6n4mx5aht04a" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_230.obj" id="230_7htw6"]
+[ext_resource type="ArrayMesh" uid="uid://xxt4loyc8up1" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_231.obj" id="231_6hrqd"]
+[ext_resource type="ArrayMesh" uid="uid://cvycsibf4l7mb" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_232.obj" id="232_148wb"]
+[ext_resource type="ArrayMesh" uid="uid://sdecup1xyde5" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_233.obj" id="233_3d6yd"]
+[ext_resource type="ArrayMesh" uid="uid://8v5ylk2l6wdu" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_234.obj" id="234_sih3c"]
+[ext_resource type="ArrayMesh" uid="uid://ysu13evaf55t" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_235.obj" id="235_1unjk"]
+[ext_resource type="ArrayMesh" uid="uid://f6wk3yv4s5ku" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_236.obj" id="236_78bqg"]
+[ext_resource type="ArrayMesh" uid="uid://svtafw6x066f" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_237.obj" id="237_hg8hn"]
+[ext_resource type="ArrayMesh" uid="uid://bmw1m7kwqtlg1" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_238.obj" id="238_ccir1"]
+[ext_resource type="ArrayMesh" uid="uid://dsq36g67i4pfe" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_239.obj" id="239_t2xvt"]
+[ext_resource type="ArrayMesh" uid="uid://bxtlahwee2gfs" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_240.obj" id="240_8c6yj"]
+[ext_resource type="ArrayMesh" uid="uid://dbqvn84xgu7hx" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_241.obj" id="241_mf0w5"]
+[ext_resource type="ArrayMesh" uid="uid://dt2wwo83x0eb3" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_242.obj" id="242_kulho"]
+[ext_resource type="ArrayMesh" uid="uid://dvp360fip572w" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_243.obj" id="243_krfx8"]
+[ext_resource type="ArrayMesh" uid="uid://bvs7y168goyit" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_244.obj" id="244_qw3sp"]
+[ext_resource type="ArrayMesh" uid="uid://dx6x5w3hfpohi" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_245.obj" id="245_sca6k"]
+[ext_resource type="ArrayMesh" uid="uid://cqktd4tl1gfkb" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_246.obj" id="246_shlva"]
+[ext_resource type="ArrayMesh" uid="uid://c3jbvj3rjt21n" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_247.obj" id="247_rbm3t"]
+[ext_resource type="ArrayMesh" uid="uid://cabpxk1xiksx8" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_248.obj" id="248_tbm1b"]
+[ext_resource type="ArrayMesh" uid="uid://i3yhqnfsk1v4" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_249.obj" id="249_2d4wj"]
+[ext_resource type="ArrayMesh" uid="uid://cthme0conq3hs" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_250.obj" id="250_hcobl"]
+[ext_resource type="ArrayMesh" uid="uid://tiobw7xj4gth" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_251.obj" id="251_ctxpv"]
+[ext_resource type="ArrayMesh" uid="uid://c1vlubm1ytbas" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_252.obj" id="252_oml3x"]
+[ext_resource type="ArrayMesh" uid="uid://di8l2obiwgset" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_253.obj" id="253_iwdsy"]
+[ext_resource type="ArrayMesh" uid="uid://dpq5781dalqng" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_254.obj" id="254_cod4e"]
+[ext_resource type="ArrayMesh" uid="uid://dmw8htw62tlnf" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_255.obj" id="255_j68ka"]
+[ext_resource type="ArrayMesh" uid="uid://cn8yji0ue4bcp" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_256.obj" id="256_u3d70"]
+[ext_resource type="ArrayMesh" uid="uid://k50siew25260" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_257.obj" id="257_vy4h2"]
+[ext_resource type="ArrayMesh" uid="uid://baju3wq303tqq" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_258.obj" id="258_pg2ln"]
+[ext_resource type="ArrayMesh" uid="uid://cx03nr66ig1hx" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_259.obj" id="259_m2xm1"]
+[ext_resource type="ArrayMesh" uid="uid://dbkf4vwm6pwhr" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_260.obj" id="260_837f7"]
+[ext_resource type="ArrayMesh" uid="uid://dmcdax5f8ux0l" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_261.obj" id="261_8qgrv"]
+[ext_resource type="ArrayMesh" uid="uid://c8plm5d3bdfyk" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_262.obj" id="262_nu282"]
+[ext_resource type="ArrayMesh" uid="uid://8ipfvmln55m5" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_263.obj" id="263_l3c0e"]
+[ext_resource type="ArrayMesh" uid="uid://bkmnhpswjnupe" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_264.obj" id="264_ycbox"]
+[ext_resource type="ArrayMesh" uid="uid://bbesaqcvc7aap" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_265.obj" id="265_bei58"]
+[ext_resource type="ArrayMesh" uid="uid://cun45kp0aycx2" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_266.obj" id="266_k8e51"]
+[ext_resource type="ArrayMesh" uid="uid://cg540o8ct52rq" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_267.obj" id="267_k2gl6"]
+[ext_resource type="ArrayMesh" uid="uid://m4uqq1hd8408" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_268.obj" id="268_u1ko6"]
+[ext_resource type="ArrayMesh" uid="uid://clpa1qdklkrkb" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_269.obj" id="269_wmq7v"]
+[ext_resource type="ArrayMesh" uid="uid://2ylno5emqird" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_270.obj" id="270_kkim5"]
+[ext_resource type="ArrayMesh" uid="uid://b1ia4s83m26qh" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_271.obj" id="271_nx0bo"]
+[ext_resource type="ArrayMesh" uid="uid://j7w8pwy8th0j" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_272.obj" id="272_kiyry"]
+[ext_resource type="ArrayMesh" uid="uid://cwhbmcn2pa1vi" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_273.obj" id="273_ejga8"]
+[ext_resource type="ArrayMesh" uid="uid://d2xj6xlox4vgw" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_274.obj" id="274_vxa88"]
+[ext_resource type="ArrayMesh" uid="uid://df7h4p8q3pdbt" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_275.obj" id="275_s16bu"]
+[ext_resource type="ArrayMesh" uid="uid://d36nm00t3rpon" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_276.obj" id="276_2cfbc"]
+[ext_resource type="ArrayMesh" uid="uid://c6bmtqss4tgrj" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_277.obj" id="277_sy7xm"]
+[ext_resource type="ArrayMesh" uid="uid://driq7okbg6wih" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_278.obj" id="278_hgtcv"]
+[ext_resource type="ArrayMesh" uid="uid://bhyul0hw6eddc" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_279.obj" id="279_omyfd"]
+[ext_resource type="ArrayMesh" uid="uid://cts0lemoun68f" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_280.obj" id="280_br4yn"]
+[ext_resource type="ArrayMesh" uid="uid://dki4nmah8ebgg" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_281.obj" id="281_jrawc"]
+[ext_resource type="ArrayMesh" uid="uid://bu7j2puyfgrwj" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_282.obj" id="282_yt88f"]
+[ext_resource type="ArrayMesh" uid="uid://57xbw7aooymp" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_283.obj" id="283_e4jt4"]
+[ext_resource type="ArrayMesh" uid="uid://d3pl06sp38r1a" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_284.obj" id="284_7tnhj"]
+[ext_resource type="ArrayMesh" uid="uid://udijkhjqwroc" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_285.obj" id="285_wx4fv"]
+[ext_resource type="ArrayMesh" uid="uid://b7qgkiryeccou" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_286.obj" id="286_l6iaa"]
+[ext_resource type="ArrayMesh" uid="uid://cvr8fy0vpktrl" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_287.obj" id="287_j3032"]
+[ext_resource type="ArrayMesh" uid="uid://c35wsu3giw7u8" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_288.obj" id="288_e4vsl"]
+[ext_resource type="ArrayMesh" uid="uid://dg12nhmseigek" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_289.obj" id="289_gpply"]
+[ext_resource type="ArrayMesh" uid="uid://diy1fhf7kwckx" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_290.obj" id="290_n3vqv"]
+[ext_resource type="ArrayMesh" uid="uid://bb5gylkp6xmk8" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_291.obj" id="291_uyvam"]
+[ext_resource type="ArrayMesh" uid="uid://da5u8n406xoa6" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_292.obj" id="292_kblp6"]
+[ext_resource type="ArrayMesh" uid="uid://dhfgyoije0br1" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_293.obj" id="293_uyu7x"]
+[ext_resource type="ArrayMesh" uid="uid://v5i8v3tnvh5o" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_294.obj" id="294_vk84c"]
+[ext_resource type="ArrayMesh" uid="uid://3gam20rrqgvu" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_295.obj" id="295_0n16x"]
+[ext_resource type="ArrayMesh" uid="uid://bscdla4rkbaqd" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_296.obj" id="296_wuhd6"]
+[ext_resource type="ArrayMesh" uid="uid://w41l8grfhqk5" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_297.obj" id="297_gr8ya"]
+[ext_resource type="ArrayMesh" uid="uid://bdxi63ama2gyi" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_298.obj" id="298_ftrsq"]
+[ext_resource type="ArrayMesh" uid="uid://c6i80avbsgr73" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_299.obj" id="299_sb3mh"]
+[ext_resource type="ArrayMesh" uid="uid://bo7ev2182yvxq" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_300.obj" id="300_iiknf"]
+[ext_resource type="ArrayMesh" uid="uid://fofpxk6pmcs3" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_301.obj" id="301_hv5k2"]
+[ext_resource type="ArrayMesh" uid="uid://bch4dih05k1nn" path="res://Assets/kenney_3d_road_tiles/Models/roadTile_302.obj" id="302_k1vc4"]
+
+[node name="RoadMeshLibrary" type="Node3D" unique_id=1547443488]
+
+[node name="RoadTile001" type="MeshInstance3D" parent="." unique_id=616130879]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("1_6rkqx")
+
+[node name="RoadTile002" type="MeshInstance3D" parent="." unique_id=1001881678]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("2_0whgd")
+
+[node name="RoadTile003" type="MeshInstance3D" parent="." unique_id=2096016231]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("3_jrhvo")
+
+[node name="RoadTile004" type="MeshInstance3D" parent="." unique_id=1063145195]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("4_kifd4")
+
+[node name="RoadTile005" type="MeshInstance3D" parent="." unique_id=770034628]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("5_pq5u7")
+
+[node name="RoadTile006" type="MeshInstance3D" parent="." unique_id=1267466598]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("6_wkckr")
+
+[node name="RoadTile007" type="MeshInstance3D" parent="." unique_id=2136653363]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("7_0adpo")
+
+[node name="RoadTile008" type="MeshInstance3D" parent="." unique_id=369246325]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("8_t6rpj")
+
+[node name="RoadTile009" type="MeshInstance3D" parent="." unique_id=1908922297]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("9_65mfd")
+
+[node name="RoadTile010" type="MeshInstance3D" parent="." unique_id=322908268]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("10_aqln0")
+
+[node name="RoadTile011" type="MeshInstance3D" parent="." unique_id=143008894]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("11_yav7a")
+
+[node name="RoadTile012" type="MeshInstance3D" parent="." unique_id=1862427881]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("12_dfksp")
+
+[node name="RoadTile013" type="MeshInstance3D" parent="." unique_id=96014810]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("13_q15fn")
+
+[node name="RoadTile014" type="MeshInstance3D" parent="." unique_id=1892334181]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("14_b6703")
+
+[node name="RoadTile015" type="MeshInstance3D" parent="." unique_id=859109131]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("15_h8d7c")
+
+[node name="RoadTile016" type="MeshInstance3D" parent="." unique_id=841561470]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("16_e6uk8")
+
+[node name="RoadTile017" type="MeshInstance3D" parent="." unique_id=399733334]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("17_p7xuc")
+
+[node name="RoadTile018" type="MeshInstance3D" parent="." unique_id=912445601]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("18_fcu0r")
+
+[node name="RoadTile019" type="MeshInstance3D" parent="." unique_id=398962456]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.39999998, 0, 0.5)
+mesh = ExtResource("19_t2vtt")
+
+[node name="RoadTile020" type="MeshInstance3D" parent="." unique_id=464259175]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9, 0, 0.75)
+mesh = ExtResource("20_uoff6")
+
+[node name="RoadTile021" type="MeshInstance3D" parent="." unique_id=1678666028]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("21_nlrgc")
+
+[node name="RoadTile022" type="MeshInstance3D" parent="." unique_id=1165538008]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("22_mhhow")
+
+[node name="RoadTile023" type="MeshInstance3D" parent="." unique_id=694770351]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("23_qc2j5")
+
+[node name="RoadTile024" type="MeshInstance3D" parent="." unique_id=1833309784]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("24_m7or3")
+
+[node name="RoadTile025" type="MeshInstance3D" parent="." unique_id=1448798387]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("25_2nw06")
+
+[node name="RoadTile026" type="MeshInstance3D" parent="." unique_id=1635621313]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("26_65k2v")
+
+[node name="RoadTile027" type="MeshInstance3D" parent="." unique_id=1720768643]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("27_utv2f")
+
+[node name="RoadTile028" type="MeshInstance3D" parent="." unique_id=1346060806]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("28_e4bu4")
+
+[node name="RoadTile029" type="MeshInstance3D" parent="." unique_id=2043155215]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("29_kserd")
+
+[node name="RoadTile030" type="MeshInstance3D" parent="." unique_id=2007278264]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("30_8cj2v")
+
+[node name="RoadTile031" type="MeshInstance3D" parent="." unique_id=1517521123]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("31_0ab6r")
+
+[node name="RoadTile032" type="MeshInstance3D" parent="." unique_id=1729493705]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("32_riro3")
+
+[node name="RoadTile033" type="MeshInstance3D" parent="." unique_id=1343047405]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("33_suxp4")
+
+[node name="RoadTile034" type="MeshInstance3D" parent="." unique_id=1582321008]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("34_tvxgs")
+
+[node name="RoadTile035" type="MeshInstance3D" parent="." unique_id=713965295]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("35_drwif")
+
+[node name="RoadTile036" type="MeshInstance3D" parent="." unique_id=590945082]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("36_2lbjv")
+
+[node name="RoadTile037" type="MeshInstance3D" parent="." unique_id=17786165]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("37_ccvxc")
+
+[node name="RoadTile038" type="MeshInstance3D" parent="." unique_id=909511254]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("38_h2vgw")
+
+[node name="RoadTile039" type="MeshInstance3D" parent="." unique_id=1122388431]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("39_4whs7")
+
+[node name="RoadTile040" type="MeshInstance3D" parent="." unique_id=442888292]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("40_86kfy")
+
+[node name="RoadTile041" type="MeshInstance3D" parent="." unique_id=2280494]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("41_gfi4x")
+
+[node name="RoadTile042" type="MeshInstance3D" parent="." unique_id=1129551468]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("42_pxcyo")
+
+[node name="RoadTile043" type="MeshInstance3D" parent="." unique_id=1968205867]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("43_dsqol")
+
+[node name="RoadTile044" type="MeshInstance3D" parent="." unique_id=330660683]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("44_e2kre")
+
+[node name="RoadTile045" type="MeshInstance3D" parent="." unique_id=966386501]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("45_8xvdx")
+
+[node name="RoadTile046" type="MeshInstance3D" parent="." unique_id=1087141981]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("46_1wctd")
+
+[node name="RoadTile047" type="MeshInstance3D" parent="." unique_id=405969582]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("47_d1ldb")
+
+[node name="RoadTile048" type="MeshInstance3D" parent="." unique_id=1602462638]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("48_y1wla")
+
+[node name="RoadTile049" type="MeshInstance3D" parent="." unique_id=1305746002]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("49_kpakq")
+
+[node name="RoadTile050" type="MeshInstance3D" parent="." unique_id=1572513180]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("50_rodwn")
+
+[node name="RoadTile051" type="MeshInstance3D" parent="." unique_id=1618612714]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("51_h32ok")
+
+[node name="RoadTile052" type="MeshInstance3D" parent="." unique_id=1074341260]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("52_yna7y")
+
+[node name="RoadTile053" type="MeshInstance3D" parent="." unique_id=455286288]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("53_8mvi1")
+
+[node name="RoadTile054" type="MeshInstance3D" parent="." unique_id=2089460829]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("54_iyr0q")
+
+[node name="RoadTile055" type="MeshInstance3D" parent="." unique_id=713253945]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("55_rw17h")
+
+[node name="RoadTile056" type="MeshInstance3D" parent="." unique_id=229581359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("56_ptcms")
+
+[node name="RoadTile057" type="MeshInstance3D" parent="." unique_id=1419469204]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("57_skos4")
+
+[node name="RoadTile058" type="MeshInstance3D" parent="." unique_id=2005798337]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("58_ivfx8")
+
+[node name="RoadTile059" type="MeshInstance3D" parent="." unique_id=1634759962]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("59_u3yx8")
+
+[node name="RoadTile060" type="MeshInstance3D" parent="." unique_id=810856760]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("60_i14lp")
+
+[node name="RoadTile061" type="MeshInstance3D" parent="." unique_id=1316480045]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("61_l30fl")
+
+[node name="RoadTile062" type="MeshInstance3D" parent="." unique_id=2102168031]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("62_iu18s")
+
+[node name="RoadTile063" type="MeshInstance3D" parent="." unique_id=1349928896]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("63_stp2q")
+
+[node name="RoadTile064" type="MeshInstance3D" parent="." unique_id=1101404804]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("64_jiu1j")
+
+[node name="RoadTile065" type="MeshInstance3D" parent="." unique_id=1982708993]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("65_sfgtt")
+
+[node name="RoadTile066" type="MeshInstance3D" parent="." unique_id=1945724316]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("66_vxk1h")
+
+[node name="RoadTile067" type="MeshInstance3D" parent="." unique_id=466371336]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("67_xx77l")
+
+[node name="RoadTile068" type="MeshInstance3D" parent="." unique_id=684629081]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("68_buaiu")
+
+[node name="RoadTile069" type="MeshInstance3D" parent="." unique_id=260606680]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("69_twqjv")
+
+[node name="RoadTile070" type="MeshInstance3D" parent="." unique_id=933934420]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("70_vd731")
+
+[node name="RoadTile071" type="MeshInstance3D" parent="." unique_id=1075500852]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("71_72m8u")
+
+[node name="RoadTile072" type="MeshInstance3D" parent="." unique_id=2037987015]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("72_0c3ws")
+
+[node name="RoadTile073" type="MeshInstance3D" parent="." unique_id=1942212812]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("73_toik4")
+
+[node name="RoadTile074" type="MeshInstance3D" parent="." unique_id=1196127415]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("74_21c1g")
+
+[node name="RoadTile075" type="MeshInstance3D" parent="." unique_id=347020697]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("75_l67ix")
+
+[node name="RoadTile076" type="MeshInstance3D" parent="." unique_id=446490327]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("76_a30o3")
+
+[node name="RoadTile077" type="MeshInstance3D" parent="." unique_id=2046444695]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("77_vadr3")
+
+[node name="RoadTile078" type="MeshInstance3D" parent="." unique_id=2007191549]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("78_yqa08")
+
+[node name="RoadTile079" type="MeshInstance3D" parent="." unique_id=2051937437]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("79_cnxnq")
+
+[node name="RoadTile080" type="MeshInstance3D" parent="." unique_id=307760770]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("80_7np1e")
+
+[node name="RoadTile081" type="MeshInstance3D" parent="." unique_id=1879651011]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("81_b4174")
+
+[node name="RoadTile082" type="MeshInstance3D" parent="." unique_id=598639455]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("82_yss7j")
+
+[node name="RoadTile083" type="MeshInstance3D" parent="." unique_id=368067459]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("83_glfak")
+
+[node name="RoadTile084" type="MeshInstance3D" parent="." unique_id=892574494]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("84_ykifo")
+
+[node name="RoadTile085" type="MeshInstance3D" parent="." unique_id=1845747236]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("85_qfluw")
+
+[node name="RoadTile086" type="MeshInstance3D" parent="." unique_id=1907825386]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("86_1y0jg")
+
+[node name="RoadTile087" type="MeshInstance3D" parent="." unique_id=1685389264]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("87_1ahbw")
+
+[node name="RoadTile088" type="MeshInstance3D" parent="." unique_id=1447512854]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("88_t78gv")
+
+[node name="RoadTile089" type="MeshInstance3D" parent="." unique_id=1383621334]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("89_h8in6")
+
+[node name="RoadTile090" type="MeshInstance3D" parent="." unique_id=218333761]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("90_rfsux")
+
+[node name="RoadTile091" type="MeshInstance3D" parent="." unique_id=2144392114]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("91_fbxnm")
+
+[node name="RoadTile092" type="MeshInstance3D" parent="." unique_id=102974927]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("92_j54xl")
+
+[node name="RoadTile093" type="MeshInstance3D" parent="." unique_id=126917751]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("93_3c221")
+
+[node name="RoadTile094" type="MeshInstance3D" parent="." unique_id=2032728783]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("94_0xdhs")
+
+[node name="RoadTile095" type="MeshInstance3D" parent="." unique_id=83108488]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("95_v8u5m")
+
+[node name="RoadTile096" type="MeshInstance3D" parent="." unique_id=2066789827]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("96_l1wqh")
+
+[node name="RoadTile097" type="MeshInstance3D" parent="." unique_id=767081867]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("97_7yr6g")
+
+[node name="RoadTile098" type="MeshInstance3D" parent="." unique_id=645090254]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("98_qu17y")
+
+[node name="RoadTile099" type="MeshInstance3D" parent="." unique_id=2061599298]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("99_1i2fr")
+
+[node name="RoadTile100" type="MeshInstance3D" parent="." unique_id=511153007]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("100_ajb6j")
+
+[node name="RoadTile101" type="MeshInstance3D" parent="." unique_id=300309056]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("101_ipylh")
+
+[node name="RoadTile102" type="MeshInstance3D" parent="." unique_id=1265610803]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("102_33e6b")
+
+[node name="RoadTile103" type="MeshInstance3D" parent="." unique_id=35705430]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("103_l0n6b")
+
+[node name="RoadTile104" type="MeshInstance3D" parent="." unique_id=373592487]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("104_2u8fw")
+
+[node name="RoadTile105" type="MeshInstance3D" parent="." unique_id=289544703]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("105_i73hl")
+
+[node name="RoadTile106" type="MeshInstance3D" parent="." unique_id=1882313164]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("106_yimuh")
+
+[node name="RoadTile107" type="MeshInstance3D" parent="." unique_id=1202851319]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("107_2n0px")
+
+[node name="RoadTile108" type="MeshInstance3D" parent="." unique_id=1229262837]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("108_jgmdt")
+
+[node name="RoadTile109" type="MeshInstance3D" parent="." unique_id=359222898]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("109_8gc5u")
+
+[node name="RoadTile110" type="MeshInstance3D" parent="." unique_id=1475931151]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("110_c1tls")
+
+[node name="RoadTile111" type="MeshInstance3D" parent="." unique_id=1724561619]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("111_jxfua")
+
+[node name="RoadTile112" type="MeshInstance3D" parent="." unique_id=250527021]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("112_yknbm")
+
+[node name="RoadTile113" type="MeshInstance3D" parent="." unique_id=777556115]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("113_ofwak")
+
+[node name="RoadTile114" type="MeshInstance3D" parent="." unique_id=1129190659]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("114_m1k87")
+
+[node name="RoadTile115" type="MeshInstance3D" parent="." unique_id=124966186]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("115_0ry27")
+
+[node name="RoadTile116" type="MeshInstance3D" parent="." unique_id=778713499]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("116_w3wvg")
+
+[node name="RoadTile117" type="MeshInstance3D" parent="." unique_id=411491490]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("117_dp62x")
+
+[node name="RoadTile118" type="MeshInstance3D" parent="." unique_id=887993702]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("118_34oop")
+
+[node name="RoadTile119" type="MeshInstance3D" parent="." unique_id=1661467959]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("119_863u7")
+
+[node name="RoadTile120" type="MeshInstance3D" parent="." unique_id=1689842305]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("120_nibkn")
+
+[node name="RoadTile121" type="MeshInstance3D" parent="." unique_id=1311212820]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("121_8fui6")
+
+[node name="RoadTile122" type="MeshInstance3D" parent="." unique_id=1272590888]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("122_jmqqv")
+
+[node name="RoadTile123" type="MeshInstance3D" parent="." unique_id=1782291291]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("123_w1v7d")
+
+[node name="RoadTile124" type="MeshInstance3D" parent="." unique_id=1143441887]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("124_miqfh")
+
+[node name="RoadTile125" type="MeshInstance3D" parent="." unique_id=490370804]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("125_kf2mn")
+
+[node name="RoadTile126" type="MeshInstance3D" parent="." unique_id=929009978]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("126_dcou8")
+
+[node name="RoadTile127" type="MeshInstance3D" parent="." unique_id=2135016067]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("127_36m1m")
+
+[node name="RoadTile128" type="MeshInstance3D" parent="." unique_id=954227666]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("128_2h6oi")
+
+[node name="RoadTile129" type="MeshInstance3D" parent="." unique_id=769624511]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("129_hayqr")
+
+[node name="RoadTile130" type="MeshInstance3D" parent="." unique_id=923615456]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("130_8xsxr")
+
+[node name="RoadTile131" type="MeshInstance3D" parent="." unique_id=631748360]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("131_nxfdo")
+
+[node name="RoadTile132" type="MeshInstance3D" parent="." unique_id=1015709668]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("132_hti4e")
+
+[node name="RoadTile133" type="MeshInstance3D" parent="." unique_id=1859883161]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("133_t5vw6")
+
+[node name="RoadTile134" type="MeshInstance3D" parent="." unique_id=367397734]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("134_5h67n")
+
+[node name="RoadTile135" type="MeshInstance3D" parent="." unique_id=1324077471]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("135_0n5f3")
+
+[node name="RoadTile136" type="MeshInstance3D" parent="." unique_id=656996520]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("136_r4ht1")
+
+[node name="RoadTile137" type="MeshInstance3D" parent="." unique_id=1406196013]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("137_mfkvh")
+
+[node name="RoadTile138" type="MeshInstance3D" parent="." unique_id=569906985]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("138_lhjgj")
+
+[node name="RoadTile139" type="MeshInstance3D" parent="." unique_id=1686328407]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("139_xpa3f")
+
+[node name="RoadTile140" type="MeshInstance3D" parent="." unique_id=1932620561]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("140_wknvr")
+
+[node name="RoadTile141" type="MeshInstance3D" parent="." unique_id=731666579]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("141_3ujrf")
+
+[node name="RoadTile142" type="MeshInstance3D" parent="." unique_id=68910514]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("142_vaf4s")
+
+[node name="RoadTile143" type="MeshInstance3D" parent="." unique_id=570057873]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("143_43lqd")
+
+[node name="RoadTile144" type="MeshInstance3D" parent="." unique_id=1865686178]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("144_rgvvw")
+
+[node name="RoadTile145" type="MeshInstance3D" parent="." unique_id=529444947]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("145_65fex")
+
+[node name="RoadTile146" type="MeshInstance3D" parent="." unique_id=1078248607]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("146_uadf8")
+
+[node name="RoadTile147" type="MeshInstance3D" parent="." unique_id=2102093907]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("147_6k0bi")
+
+[node name="RoadTile148" type="MeshInstance3D" parent="." unique_id=798218690]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("148_stsbk")
+
+[node name="RoadTile149" type="MeshInstance3D" parent="." unique_id=1639546857]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("149_snl2c")
+
+[node name="RoadTile150" type="MeshInstance3D" parent="." unique_id=571222826]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("150_esum3")
+
+[node name="RoadTile151" type="MeshInstance3D" parent="." unique_id=1193725593]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("151_cgb1u")
+
+[node name="RoadTile152" type="MeshInstance3D" parent="." unique_id=257354630]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("152_0s1ta")
+
+[node name="RoadTile153" type="MeshInstance3D" parent="." unique_id=1448574229]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("153_eejke")
+
+[node name="RoadTile154" type="MeshInstance3D" parent="." unique_id=1376585647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("154_he03m")
+
+[node name="RoadTile155" type="MeshInstance3D" parent="." unique_id=462309708]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("155_bcg2a")
+
+[node name="RoadTile156" type="MeshInstance3D" parent="." unique_id=657921920]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("156_eo2oo")
+
+[node name="RoadTile157" type="MeshInstance3D" parent="." unique_id=1285593514]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("157_bwdtx")
+
+[node name="RoadTile158" type="MeshInstance3D" parent="." unique_id=511684080]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("158_7p1f2")
+
+[node name="RoadTile159" type="MeshInstance3D" parent="." unique_id=594196572]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("159_g5jmt")
+
+[node name="RoadTile160" type="MeshInstance3D" parent="." unique_id=526916197]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("160_kbw7d")
+
+[node name="RoadTile161" type="MeshInstance3D" parent="." unique_id=870662359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("161_7q3ll")
+
+[node name="RoadTile162" type="MeshInstance3D" parent="." unique_id=412222594]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("162_ty07e")
+
+[node name="RoadTile163" type="MeshInstance3D" parent="." unique_id=1988678899]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("163_a00m4")
+
+[node name="RoadTile164" type="MeshInstance3D" parent="." unique_id=1630006414]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("164_eujfg")
+
+[node name="RoadTile165" type="MeshInstance3D" parent="." unique_id=2111020240]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("165_pd7yb")
+
+[node name="RoadTile166" type="MeshInstance3D" parent="." unique_id=1825511136]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("166_0fo5o")
+
+[node name="RoadTile167" type="MeshInstance3D" parent="." unique_id=686222271]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("167_x6epm")
+
+[node name="RoadTile168" type="MeshInstance3D" parent="." unique_id=1371060881]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("168_07014")
+
+[node name="RoadTile169" type="MeshInstance3D" parent="." unique_id=393365758]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("169_prin0")
+
+[node name="RoadTile170" type="MeshInstance3D" parent="." unique_id=2109844515]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("170_vrg40")
+
+[node name="RoadTile171" type="MeshInstance3D" parent="." unique_id=1494439527]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("171_d1u2h")
+
+[node name="RoadTile172" type="MeshInstance3D" parent="." unique_id=1543172325]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("172_86pii")
+
+[node name="RoadTile173" type="MeshInstance3D" parent="." unique_id=195204157]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("173_whx4j")
+
+[node name="RoadTile174" type="MeshInstance3D" parent="." unique_id=726377183]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("174_c4x16")
+
+[node name="RoadTile175" type="MeshInstance3D" parent="." unique_id=1514668660]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("175_0g86y")
+
+[node name="RoadTile176" type="MeshInstance3D" parent="." unique_id=1273049800]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("176_7ln4v")
+
+[node name="RoadTile177" type="MeshInstance3D" parent="." unique_id=277360416]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("177_vk8no")
+
+[node name="RoadTile178" type="MeshInstance3D" parent="." unique_id=1201942024]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("178_rinx5")
+
+[node name="RoadTile179" type="MeshInstance3D" parent="." unique_id=1091408090]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("179_yn3em")
+
+[node name="RoadTile180" type="MeshInstance3D" parent="." unique_id=1780888450]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("180_grfm8")
+
+[node name="RoadTile181" type="MeshInstance3D" parent="." unique_id=421982088]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("181_bd3aj")
+
+[node name="RoadTile182" type="MeshInstance3D" parent="." unique_id=1168067970]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("182_kt86l")
+
+[node name="RoadTile183" type="MeshInstance3D" parent="." unique_id=1531515167]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("183_32s5a")
+
+[node name="RoadTile184" type="MeshInstance3D" parent="." unique_id=259364429]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("184_d5clm")
+
+[node name="RoadTile185" type="MeshInstance3D" parent="." unique_id=721156436]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("185_1uiux")
+
+[node name="RoadTile186" type="MeshInstance3D" parent="." unique_id=871430039]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("186_aylri")
+
+[node name="RoadTile187" type="MeshInstance3D" parent="." unique_id=2091798962]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("187_8ki2p")
+
+[node name="RoadTile188" type="MeshInstance3D" parent="." unique_id=504016805]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("188_1nwfe")
+
+[node name="RoadTile189" type="MeshInstance3D" parent="." unique_id=410533727]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("189_66qbq")
+
+[node name="RoadTile190" type="MeshInstance3D" parent="." unique_id=1147570807]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("190_ebf3j")
+
+[node name="RoadTile191" type="MeshInstance3D" parent="." unique_id=759943346]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("191_ybctw")
+
+[node name="RoadTile192" type="MeshInstance3D" parent="." unique_id=481684120]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("192_i768x")
+
+[node name="RoadTile193" type="MeshInstance3D" parent="." unique_id=884120718]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("193_5cf2f")
+
+[node name="RoadTile194" type="MeshInstance3D" parent="." unique_id=1334637812]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("194_7v0ls")
+
+[node name="RoadTile195" type="MeshInstance3D" parent="." unique_id=89655451]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("195_avpo6")
+
+[node name="RoadTile196" type="MeshInstance3D" parent="." unique_id=1129072613]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("196_2grdu")
+
+[node name="RoadTile197" type="MeshInstance3D" parent="." unique_id=967659545]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("197_eu0o5")
+
+[node name="RoadTile198" type="MeshInstance3D" parent="." unique_id=246134975]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("198_qymyu")
+
+[node name="RoadTile199" type="MeshInstance3D" parent="." unique_id=320290296]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("199_h5cle")
+
+[node name="RoadTile200" type="MeshInstance3D" parent="." unique_id=837850929]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("200_y3p65")
+
+[node name="RoadTile201" type="MeshInstance3D" parent="." unique_id=767743114]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("201_cwoxe")
+
+[node name="RoadTile202" type="MeshInstance3D" parent="." unique_id=1482028204]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("202_qdndd")
+
+[node name="RoadTile203" type="MeshInstance3D" parent="." unique_id=1469752976]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("203_tqor0")
+
+[node name="RoadTile204" type="MeshInstance3D" parent="." unique_id=898834308]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("204_4e1kd")
+
+[node name="RoadTile205" type="MeshInstance3D" parent="." unique_id=24342310]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("205_8v72c")
+
+[node name="RoadTile206" type="MeshInstance3D" parent="." unique_id=2094238452]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("206_uf8r2")
+
+[node name="RoadTile207" type="MeshInstance3D" parent="." unique_id=1155146723]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("207_yepwy")
+
+[node name="RoadTile208" type="MeshInstance3D" parent="." unique_id=239229944]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("208_i6vre")
+
+[node name="RoadTile209" type="MeshInstance3D" parent="." unique_id=1851918242]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("209_v60pa")
+
+[node name="RoadTile210" type="MeshInstance3D" parent="." unique_id=592786912]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("210_1w4kh")
+
+[node name="RoadTile211" type="MeshInstance3D" parent="." unique_id=470213597]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("211_ktt2l")
+
+[node name="RoadTile212" type="MeshInstance3D" parent="." unique_id=37846365]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("212_beje5")
+
+[node name="RoadTile213" type="MeshInstance3D" parent="." unique_id=67216907]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("213_6cspo")
+
+[node name="RoadTile214" type="MeshInstance3D" parent="." unique_id=134439127]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("214_1iuet")
+
+[node name="RoadTile215" type="MeshInstance3D" parent="." unique_id=1707071204]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("215_ikys1")
+
+[node name="RoadTile216" type="MeshInstance3D" parent="." unique_id=1701645629]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("216_shsg5")
+
+[node name="RoadTile217" type="MeshInstance3D" parent="." unique_id=1256337408]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("217_pf62x")
+
+[node name="RoadTile218" type="MeshInstance3D" parent="." unique_id=1932498834]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("218_bfsta")
+
+[node name="RoadTile219" type="MeshInstance3D" parent="." unique_id=1899459455]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("219_11c86")
+
+[node name="RoadTile220" type="MeshInstance3D" parent="." unique_id=101287380]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("220_8000w")
+
+[node name="RoadTile221" type="MeshInstance3D" parent="." unique_id=819553708]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("221_ovfvb")
+
+[node name="RoadTile222" type="MeshInstance3D" parent="." unique_id=1150156040]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("222_mntwj")
+
+[node name="RoadTile223" type="MeshInstance3D" parent="." unique_id=1965012884]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("223_6hje1")
+
+[node name="RoadTile224" type="MeshInstance3D" parent="." unique_id=1422160833]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("224_gyusm")
+
+[node name="RoadTile225" type="MeshInstance3D" parent="." unique_id=95612041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("225_d3wxk")
+
+[node name="RoadTile226" type="MeshInstance3D" parent="." unique_id=1905190618]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("226_eubpc")
+
+[node name="RoadTile227" type="MeshInstance3D" parent="." unique_id=493618069]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("227_x1vvy")
+
+[node name="RoadTile228" type="MeshInstance3D" parent="." unique_id=995213218]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("228_djmu0")
+
+[node name="RoadTile229" type="MeshInstance3D" parent="." unique_id=282230113]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("229_pf7h5")
+
+[node name="RoadTile230" type="MeshInstance3D" parent="." unique_id=41446841]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("230_7htw6")
+
+[node name="RoadTile231" type="MeshInstance3D" parent="." unique_id=527315108]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("231_6hrqd")
+
+[node name="RoadTile232" type="MeshInstance3D" parent="." unique_id=206286540]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("232_148wb")
+
+[node name="RoadTile233" type="MeshInstance3D" parent="." unique_id=58160008]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("233_3d6yd")
+
+[node name="RoadTile234" type="MeshInstance3D" parent="." unique_id=151812736]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("234_sih3c")
+
+[node name="RoadTile235" type="MeshInstance3D" parent="." unique_id=851236167]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("235_1unjk")
+
+[node name="RoadTile236" type="MeshInstance3D" parent="." unique_id=290014189]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("236_78bqg")
+
+[node name="RoadTile237" type="MeshInstance3D" parent="." unique_id=1079165013]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("237_hg8hn")
+
+[node name="RoadTile238" type="MeshInstance3D" parent="." unique_id=599600183]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("238_ccir1")
+
+[node name="RoadTile239" type="MeshInstance3D" parent="." unique_id=1354298631]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("239_t2xvt")
+
+[node name="RoadTile240" type="MeshInstance3D" parent="." unique_id=858713438]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("240_8c6yj")
+
+[node name="RoadTile241" type="MeshInstance3D" parent="." unique_id=1480143313]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("241_mf0w5")
+
+[node name="RoadTile242" type="MeshInstance3D" parent="." unique_id=1665415015]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("242_kulho")
+
+[node name="RoadTile243" type="MeshInstance3D" parent="." unique_id=1285264016]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("243_krfx8")
+
+[node name="RoadTile244" type="MeshInstance3D" parent="." unique_id=419457970]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("244_qw3sp")
+
+[node name="RoadTile245" type="MeshInstance3D" parent="." unique_id=2026390151]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("245_sca6k")
+
+[node name="RoadTile246" type="MeshInstance3D" parent="." unique_id=1434731080]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("246_shlva")
+
+[node name="RoadTile247" type="MeshInstance3D" parent="." unique_id=96568011]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("247_rbm3t")
+
+[node name="RoadTile248" type="MeshInstance3D" parent="." unique_id=481521825]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("248_tbm1b")
+
+[node name="RoadTile249" type="MeshInstance3D" parent="." unique_id=615622950]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("249_2d4wj")
+
+[node name="RoadTile250" type="MeshInstance3D" parent="." unique_id=88692328]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("250_hcobl")
+
+[node name="RoadTile251" type="MeshInstance3D" parent="." unique_id=1811849072]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("251_ctxpv")
+
+[node name="RoadTile252" type="MeshInstance3D" parent="." unique_id=2086816821]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("252_oml3x")
+
+[node name="RoadTile253" type="MeshInstance3D" parent="." unique_id=819082639]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("253_iwdsy")
+
+[node name="RoadTile254" type="MeshInstance3D" parent="." unique_id=1633483752]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("254_cod4e")
+
+[node name="RoadTile255" type="MeshInstance3D" parent="." unique_id=1286875817]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("255_j68ka")
+
+[node name="RoadTile256" type="MeshInstance3D" parent="." unique_id=42822577]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("256_u3d70")
+
+[node name="RoadTile257" type="MeshInstance3D" parent="." unique_id=180784915]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("257_vy4h2")
+
+[node name="RoadTile258" type="MeshInstance3D" parent="." unique_id=1436722458]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("258_pg2ln")
+
+[node name="RoadTile259" type="MeshInstance3D" parent="." unique_id=1489933135]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("259_m2xm1")
+
+[node name="RoadTile260" type="MeshInstance3D" parent="." unique_id=1282662078]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("260_837f7")
+
+[node name="RoadTile261" type="MeshInstance3D" parent="." unique_id=1258453780]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("261_8qgrv")
+
+[node name="RoadTile262" type="MeshInstance3D" parent="." unique_id=1669705567]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("262_nu282")
+
+[node name="RoadTile263" type="MeshInstance3D" parent="." unique_id=1083129462]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("263_l3c0e")
+
+[node name="RoadTile264" type="MeshInstance3D" parent="." unique_id=737440507]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("264_ycbox")
+
+[node name="RoadTile265" type="MeshInstance3D" parent="." unique_id=76983243]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("265_bei58")
+
+[node name="RoadTile266" type="MeshInstance3D" parent="." unique_id=164726985]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("266_k8e51")
+
+[node name="RoadTile267" type="MeshInstance3D" parent="." unique_id=669828808]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("267_k2gl6")
+
+[node name="RoadTile268" type="MeshInstance3D" parent="." unique_id=519306503]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("268_u1ko6")
+
+[node name="RoadTile269" type="MeshInstance3D" parent="." unique_id=875237541]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("269_wmq7v")
+
+[node name="RoadTile270" type="MeshInstance3D" parent="." unique_id=784434839]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("270_kkim5")
+
+[node name="RoadTile271" type="MeshInstance3D" parent="." unique_id=1499988782]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("271_nx0bo")
+
+[node name="RoadTile272" type="MeshInstance3D" parent="." unique_id=384593674]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("272_kiyry")
+
+[node name="RoadTile273" type="MeshInstance3D" parent="." unique_id=1885536389]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("273_ejga8")
+
+[node name="RoadTile274" type="MeshInstance3D" parent="." unique_id=1254457901]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("274_vxa88")
+
+[node name="RoadTile275" type="MeshInstance3D" parent="." unique_id=2071274782]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("275_s16bu")
+
+[node name="RoadTile276" type="MeshInstance3D" parent="." unique_id=1930134587]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("276_2cfbc")
+
+[node name="RoadTile277" type="MeshInstance3D" parent="." unique_id=1845281352]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("277_sy7xm")
+
+[node name="RoadTile278" type="MeshInstance3D" parent="." unique_id=1110138103]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("278_hgtcv")
+
+[node name="RoadTile279" type="MeshInstance3D" parent="." unique_id=1493426936]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("279_omyfd")
+
+[node name="RoadTile280" type="MeshInstance3D" parent="." unique_id=920126194]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("280_br4yn")
+
+[node name="RoadTile281" type="MeshInstance3D" parent="." unique_id=426818512]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("281_jrawc")
+
+[node name="RoadTile282" type="MeshInstance3D" parent="." unique_id=1288935359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("282_yt88f")
+
+[node name="RoadTile283" type="MeshInstance3D" parent="." unique_id=142734108]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("283_e4jt4")
+
+[node name="RoadTile284" type="MeshInstance3D" parent="." unique_id=1990055375]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("284_7tnhj")
+
+[node name="RoadTile285" type="MeshInstance3D" parent="." unique_id=965341584]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("285_wx4fv")
+
+[node name="RoadTile286" type="MeshInstance3D" parent="." unique_id=522606068]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("286_l6iaa")
+
+[node name="RoadTile287" type="MeshInstance3D" parent="." unique_id=1372279776]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("287_j3032")
+
+[node name="RoadTile288" type="MeshInstance3D" parent="." unique_id=1224554545]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("288_e4vsl")
+
+[node name="RoadTile289" type="MeshInstance3D" parent="." unique_id=1353518614]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("289_gpply")
+
+[node name="RoadTile290" type="MeshInstance3D" parent="." unique_id=403668126]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("290_n3vqv")
+
+[node name="RoadTile291" type="MeshInstance3D" parent="." unique_id=1055278606]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("291_uyvam")
+
+[node name="RoadTile292" type="MeshInstance3D" parent="." unique_id=285638143]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("292_kblp6")
+
+[node name="RoadTile293" type="MeshInstance3D" parent="." unique_id=1834697086]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("293_uyu7x")
+
+[node name="RoadTile294" type="MeshInstance3D" parent="." unique_id=1231979997]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("294_vk84c")
+
+[node name="RoadTile295" type="MeshInstance3D" parent="." unique_id=1071471308]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("295_0n16x")
+
+[node name="RoadTile296" type="MeshInstance3D" parent="." unique_id=561184844]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("296_wuhd6")
+
+[node name="RoadTile297" type="MeshInstance3D" parent="." unique_id=1724541890]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("297_gr8ya")
+
+[node name="RoadTile298" type="MeshInstance3D" parent="." unique_id=1017602239]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("298_ftrsq")
+
+[node name="RoadTile299" type="MeshInstance3D" parent="." unique_id=1754160861]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("299_sb3mh")
+
+[node name="RoadTile300" type="MeshInstance3D" parent="." unique_id=2025684608]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("300_iiknf")
+
+[node name="RoadTile301" type="MeshInstance3D" parent="." unique_id=1739140307]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("301_hv5k2")
+
+[node name="RoadTile302" type="MeshInstance3D" parent="." unique_id=1150039820]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 0, 1.5)
+mesh = ExtResource("302_k1vc4")

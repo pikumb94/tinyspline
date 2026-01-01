@@ -4,8 +4,9 @@
 [ext_resource type="PackedScene" uid="uid://c3ha85qhx222n" path="res://Player/player.tscn" id="1_e2o6t"]
 [ext_resource type="PackedScene" uid="uid://bescp2mnljfad" path="res://Vehicles/car_sedan.tscn" id="3_feb5d"]
 [ext_resource type="PackedScene" uid="uid://cgkvqh8y640vj" path="res://Controller.tscn" id="4_7jktm"]
-[ext_resource type="PackedScene" uid="uid://bbslgwd321pds" path="res://Token/token_vehicle.tscn" id="6_eow3j"]
 [ext_resource type="Script" uid="uid://c13hctrlbgwjx" path="res://addons/gevp/scripts/gui.gd" id="6_ryrav"]
+[ext_resource type="PackedScene" uid="uid://csb31ll1f4n6h" path="res://Token/speed_token.tscn" id="7_j5wjh"]
+[ext_resource type="PackedScene" uid="uid://bq6crcmd3evwg" path="res://Token/slow_token.tscn" id="8_vef74"]
 
 [sub_resource type="Curve3D" id="Curve3D_7jktm"]
 closed = true
@@ -68,12 +69,8 @@ debug_custom_color = Color(0.007843138, 0, 1, 1)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.5, 0, -9.75)
 gizmo_extents = 0.7
 
-[node name="TokenVehicle" parent="." unique_id=1647552305 instance=ExtResource("6_eow3j")]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.75, 1, -13.5)
-duration = 3.0
-speed_multiplier = 10.0
+[node name="TokenVehicle3" parent="." unique_id=2115689598 instance=ExtResource("7_j5wjh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.75, 1, -13.5)
 
-[node name="TokenVehicle2" parent="." unique_id=1605580281 instance=ExtResource("6_eow3j")]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 1.5, 1, 13.75)
-duration = 5.0
-speed_multiplier = 0.5
+[node name="TokenVehicle4" parent="." unique_id=905568323 instance=ExtResource("8_vef74")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 1, 13.75)
