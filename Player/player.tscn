@@ -1,6 +1,12 @@
 [gd_scene format=3 uid="uid://c3ha85qhx222n"]
 
+[ext_resource type="Script" uid="uid://dwl0d07hsp8nk" path="res://Player/camera_move.gd" id="1_l8h54"]
+
 [node name="Player" type="Node3D" unique_id=388426921]
+script = ExtResource("1_l8h54")
+
+[node name="Persp" type="Camera3D" parent="." unique_id=496542916]
+transform = Transform3D(1, 0, 0, 0, 0.70710677, 0.70710677, 0, -0.70710677, 0.70710677, 0, 15, 20)
 
 [node name="Ort" type="Camera3D" parent="." unique_id=268438273]
 transform = Transform3D(1, 0, 0, 0, -8.940697e-08, 1, 0, -1, -8.940697e-08, 0, 20, -1.9073486e-06)
@@ -8,6 +14,3 @@ projection = 1
 size = 30.0
 near = 0.011
 far = 4035.2
-
-[node name="Persp" type="Camera3D" parent="." unique_id=496542916]
-transform = Transform3D(1, 0, 0, 0, 0.7071068, 0.7071068, 0, -0.7071068, 0.7071068, 0, 15, 20)
