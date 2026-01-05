@@ -11,7 +11,6 @@ func _ready():
 
 func _process(delta):
 	var cam := get_viewport().get_camera_3d()
-	print(cam)
 	if cam:
 		$Sprite3D.look_at(cam.global_position, Vector3.UP)
 		

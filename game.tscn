@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cgkvqh8y640vj" path="res://Controller.tscn" id="4_7jktm"]
 [ext_resource type="Script" uid="uid://c13hctrlbgwjx" path="res://addons/gevp/scripts/gui.gd" id="6_ryrav"]
 [ext_resource type="PackedScene" uid="uid://csb31ll1f4n6h" path="res://Token/speed_token.tscn" id="7_j5wjh"]
+[ext_resource type="PackedScene" uid="uid://bv5yidq3pdqm0" path="res://Trajectory/trajectory.tscn" id="8_j5wjh"]
 [ext_resource type="PackedScene" uid="uid://bq6crcmd3evwg" path="res://Token/slow_token.tscn" id="8_vef74"]
 
 [sub_resource type="Curve3D" id="Curve3D_7jktm"]
@@ -74,3 +75,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.75, 1, -13.5)
 
 [node name="TokenVehicle4" parent="." unique_id=905568323 instance=ExtResource("8_vef74")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 1, 13.75)
+
+[node name="Trajectory" parent="." unique_id=937586305 instance=ExtResource("8_j5wjh")]

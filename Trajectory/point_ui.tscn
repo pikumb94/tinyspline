@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://b6k0bcfwenxd"]
+
+[node name="PointUi" type="Control" unique_id=192327285]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1852393072]
+layout_mode = 0
+offset_right = 17.0
+offset_bottom = 15.0
